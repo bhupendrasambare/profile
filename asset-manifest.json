@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9cac223a.css",
-    "main.js": "/Portfolio/static/js/main.11194c2e.js",
+    "main.css": "/Portfolio/static/css/main.4c12c77f.css",
+    "main.js": "/Portfolio/static/js/main.9834740b.js",
     "static/media/Profile.jpg": "/Portfolio/static/media/Profile.3af9218db38847365ab6.jpg",
     "static/media/Profile-3.jpg": "/Portfolio/static/media/Profile-3.c954748a4f6cd0452253.jpg",
     "static/media/Bhupendra-sambare.pdf": "/Portfolio/static/media/Bhupendra-sambare.6a5102b27b0f7eea8f35.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.9cac223a.css.map": "/Portfolio/static/css/main.9cac223a.css.map",
-    "main.11194c2e.js.map": "/Portfolio/static/js/main.11194c2e.js.map"
+    "main.4c12c77f.css.map": "/Portfolio/static/css/main.4c12c77f.css.map",
+    "main.9834740b.js.map": "/Portfolio/static/js/main.9834740b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cac223a.css",
-    "static/js/main.11194c2e.js"
+    "static/css/main.4c12c77f.css",
+    "static/js/main.9834740b.js"
   ]
 }
