@@ -9,6 +9,7 @@
     border: 1px solid rgba(0,0,0,0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    min-width: 200px;
 }
 
 .skills__title{
@@ -63,6 +64,7 @@
 
     .skills__content{
         padding: 1.5rem;
+        min-width: 200px;
     }
 }
 @media screen and (max-width: 350px) {

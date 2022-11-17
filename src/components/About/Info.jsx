@@ -17,7 +17,7 @@ const Info = () => {
         </div>
         
         <div className="about__box">
-            <i class='bx bx-badge-check about__icon'></i>
+            <i className='bx bx-badge-check about__icon'></i>
             <h3 className="about__title">Certificates</h3>
             <span className="about__subtitle">16+ Certificates </span>
         </div>
