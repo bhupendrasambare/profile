@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.89c59f50.css",
-    "main.js": "/static/js/main.60474fb0.js",
-    "static/media/Profile.jpg": "/static/media/Profile.3af9218db38847365ab6.jpg",
-    "static/media/Profile-3.jpg": "/static/media/Profile-3.c954748a4f6cd0452253.jpg",
-    "static/media/Bhupendra-sambare.pdf": "/static/media/Bhupendra-sambare.6a5102b27b0f7eea8f35.pdf",
-    "index.html": "/index.html",
-    "main.89c59f50.css.map": "/static/css/main.89c59f50.css.map",
-    "main.60474fb0.js.map": "/static/js/main.60474fb0.js.map"
+    "main.css": "/Portfolio/static/css/main.93bbd5ad.css",
+    "main.js": "/Portfolio/static/js/main.11194c2e.js",
+    "static/media/Profile.jpg": "/Portfolio/static/media/Profile.3af9218db38847365ab6.jpg",
+    "static/media/Profile-3.jpg": "/Portfolio/static/media/Profile-3.c954748a4f6cd0452253.jpg",
+    "static/media/Bhupendra-sambare.pdf": "/Portfolio/static/media/Bhupendra-sambare.6a5102b27b0f7eea8f35.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.93bbd5ad.css.map": "/Portfolio/static/css/main.93bbd5ad.css.map",
+    "main.11194c2e.js.map": "/Portfolio/static/js/main.11194c2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.89c59f50.css",
-    "static/js/main.60474fb0.js"
+    "static/css/main.93bbd5ad.css",
+    "static/js/main.11194c2e.js"
   ]
 }
