@@ -56,9 +56,11 @@ const Data = () => {
         </h1>
 
         <h3 className="home__subtitle">Web Developer</h3>
-        <p className="home__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quo, enim a cum explicabo nihil earum libero ab illo, dolore autem minima et saepe molestiae.</p>
+        <p className="home__description">
+        Proven full-stack java developer with a passion to learn and work with new technologies that make a positive impact on society. Extremely proficient in Java technologies like spring boot and hibernate.<br/>Dedicated to learning better ways to write clean and efficient code while keeping up with the newest tech stacks. 
+        </p>
 
-        <a className="button button--flex" href="#contact">
+        <a className="home__link button button--flex" href="#contact">
             Say Hello 
             <svg
                   className="button__icon"

@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className='header'>
         <div className=' nav container'>
-            <a href='/' className='nav__logo'>Bhupendra</a>
+            <a href='#home' className='nav__logo'>Bhupendra</a>
 
             <div className={toggle ? 'nav__menu show-menu':"nav__menu"}>
                 <ul className="nav__list">

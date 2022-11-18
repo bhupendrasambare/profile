@@ -21,7 +21,11 @@ const About = () => {
                 <Info/>
 
                 <p className="about__description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam ratione earum temporibus vel, dolorem molestiae officia? Nulla, aspernatur dignissimos? Optio facere quaerat ipsam consectetur tempore?
+                    Software engineer with a proven ability to work creatively in
+                    small and large team environments. For a team project, I was
+                    responsible for the back end, and I took it upon myself to learn
+                    React js front end to ensure smooth interactions without the
+                    need to delay the front-end engineer’s other work.
                 </p>
 
                 <a download href={CV} className="button button--flex">Download CV 

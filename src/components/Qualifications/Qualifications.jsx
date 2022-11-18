@@ -38,13 +38,13 @@ const Qualifications = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">
-
+                                CSKA Automation
                             </h3>
                             <span className="qualification__subtitle">
-                                Institute name
+                                Software Engineer Trainee
                             </span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2021 - present
+                                <i className="uil uil-calendar-alt"></i> July 2022 - present
                             </div>
 
                         </div>
@@ -68,13 +68,13 @@ const Qualifications = () => {
 
                         <div>
                             <h3 className="qualification__title">
-
+                                CSKA Automation
                             </h3>
                             <span className="qualification__subtitle">
-                                Web design
+                                Java Developer Intern
                             </span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2021 - present
+                                <i className="uil uil-calendar-alt"></i> April 2022 - June 2022
                             </div>
 
                         </div>
@@ -83,13 +83,13 @@ const Qualifications = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">
-
+                                Apoliums Infotech Indore
                             </h3>
                             <span className="qualification__subtitle">
-                                Institute name
+                                Web Developer
                             </span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2021 - present
+                                <i className="uil uil-calendar-alt"></i> June 2021 - August 2021
                             </div>
 
                         </div>
@@ -98,30 +98,6 @@ const Qualifications = () => {
 
                             </span>
                             <span className="qualification__line"></span>
-                        </div>
-                    </div>
-                    
-                    <div className="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span className="qualification__rounder">
-
-                            </span>
-                            <span className="qualification__line"></span>
-                        </div>
-
-                        <div>
-                            <h3 className="qualification__title">
-
-                            </h3>
-                            <span className="qualification__subtitle">
-                                Web design
-                            </span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2021 - present
-                            </div>
-
                         </div>
                     </div>
                     
@@ -132,13 +108,13 @@ const Qualifications = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">
-
+                                IPS Academy Indore
                             </h3>
                             <span className="qualification__subtitle">
-                                Institute name
+                                B.tech (8.2 CGPA) <small>currently</small>
                             </span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2021 - present
+                                <i className="uil uil-calendar-alt"></i> 2019 - 2023
                             </div>
 
                         </div>
@@ -162,10 +138,10 @@ const Qualifications = () => {
 
                         <div>
                             <h3 className="qualification__title">
-
+                                Nadekar Jr. Collage
                             </h3>
                             <span className="qualification__subtitle">
-                                Web design
+                                12<sup>th</sup> (69% PCMB)
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i> 2021 - present
@@ -177,10 +153,10 @@ const Qualifications = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">
-
+                                Evergreen English High School
                             </h3>
                             <span className="qualification__subtitle">
-                                Institute name
+                                10<sup>th</sup> (78%)
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i> 2021 - present
@@ -192,30 +168,6 @@ const Qualifications = () => {
 
                             </span>
                             <span className="qualification__line"></span>
-                        </div>
-                    </div>
-                    
-                    <div className="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span className="qualification__rounder">
-
-                            </span>
-                            <span className="qualification__line"></span>
-                        </div>
-
-                        <div>
-                            <h3 className="qualification__title">
-
-                            </h3>
-                            <span className="qualification__subtitle">
-                                Web design
-                            </span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2021 - pres
-                            </div>
-
                         </div>
                     </div>
                     

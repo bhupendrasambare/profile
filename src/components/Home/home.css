@@ -87,7 +87,8 @@
 }
 
 .home__scroll{
-    margin-left: 9.25rem;
+    margin-left: 4.25rem;
+    margin-top: 1rem;
 }
 
 .wheel{
@@ -105,7 +106,7 @@
 }
 
 .home__scroll-name{
-    color: vr(--title-color);
+    color: var(--title-color);
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
     margin-left: 2px;
@@ -168,7 +169,7 @@
     }
 
     .home__scroll{
-        margin-left: 7.5rem;
+        margin-left: 3.5rem;
     }
 }
 
