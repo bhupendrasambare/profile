@@ -25,15 +25,6 @@ const Backend = () => {
                         <span className='skills__level'>Intermediate</span>
                     </div>
                 </div>
-
-                <div className="skills__data">
-                    <i className="bx bxl-php"></i>
-
-                    <div>
-                        <h3 className='skills__name'>PHP</h3>
-                        <span className='skills__level'>Intermediate</span>
-                    </div>
-                </div>
                 
             </div>
             <div className="skills__group">
@@ -48,20 +39,11 @@ const Backend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i className="bx bxl-c-plus-plus"></i>
+                    <i className="bx bxl-php"></i>
 
                     <div>
-                        <h3 className='skills__name'>C++</h3>
-                        <span className='skills__level'>Basics</span>
-                    </div>
-                </div>
-
-                <div className="skills__data">
-                    <i className="bx bxl-python"></i>
-
-                    <div>
-                        <h3 className='skills__name'>Pyton</h3>
-                        <span className='skills__level'>Basics</span>
+                        <h3 className='skills__name'>PHP</h3>
+                        <span className='skills__level'>Intermediate</span>
                     </div>
                 </div>
 

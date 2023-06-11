@@ -3,10 +3,12 @@ import Backend from './Backend'
 import Cloud from './Cloud'
 import Database from './Database'
 import Frontnd from './Frontnd'
-import "./Skills.css"
+import "../Style/Skills.css"
+import { Motion } from '../../Component/Motion'
 
 const Skills = () => {
   return (
+    <Motion>
     <section className="skill section" id='skills'>
         <h3 className="section__title">
             Skills
@@ -21,7 +23,7 @@ const Skills = () => {
             <Cloud/>
         </div>
 
-    </section>
+    </section></Motion>
   )
 }
 

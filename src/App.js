@@ -1,25 +1,47 @@
-import React from "react";
-import About from "./components/About/About";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/header/Header"
-import Home from "./components/Home/Home";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Qualifications from "./components/Qualifications/Qualifications";
-import Skills from "./components/Skills/Skills";
+import React, { useEffect, useState } from "react";
+import About from "./About/Component/About";
+import Header from "./Navbar/Header"
+import Home from "./Home/Components/Home";
+import Portfolio from "./Portfolio/Component/Portfolio";
+import Qualifications from "./Qualification/Component/Qualifications.jsx";
+import Skills from "./Skills/Component/Skills";
+import { Route, Routes } from "react-router-dom";
+import { RingLoader } from "react-spinners";
 
+window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+});
 function App() {
+    const [loading,setLoading] = useState(false);
+    
+    useEffect(()=>{
+      setLoading(true);
+      setTimeout(()=>{
+        setLoading(false)
+      },1000)
+    },[])
+    
   return (
+    
     <div className="App">
-        <Header/>
-        <main className="main">
-            <Home/>
-            <About/>
-            <Qualifications/>
-            <Skills/>
-            <Portfolio/>
-            <Footer/>
-        </main>
-    </div>
+      {loading?
+        <div className="loading-box">
+          <RingLoader color="rgb(0 222 255)" size={60} loading={loading} />
+        </div>
+        :<>
+          <Header/>
+          <main className="main">
+              <Routes>
+                  <Route path="/" element={<Home/>}/>
+                  <Route path="/about" element={<About/>}/>
+                  <Route path="/qualification" element={<Qualifications/>}/>
+                  <Route path="/skills" element={<Skills/>}/>
+                  <Route path="/portfolio" element={<Portfolio/>}/>
+              </Routes>
+          </main>
+        </>
+      }
+        </div>
   );
 }
 

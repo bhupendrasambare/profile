@@ -9,15 +9,6 @@ const Cloud = () => {
             <div className="skills__group">
 
                 <div className="skills__data">
-                    <i className="bx bxl-git"></i>
-
-                    <div>
-                        <h3 className='skills__name'>Git Bash</h3>
-                        <span className='skills__level'>Intermediate</span>
-                    </div>
-                </div>
-
-                <div className="skills__data">
                     <i class='bx bx-category-alt'></i>
 
                     <div>
@@ -43,15 +34,6 @@ const Cloud = () => {
 
                     <div>
                         <h3 className='skills__name'>EC2</h3>
-                        <span className='skills__level'>Basics</span>
-                    </div>
-                </div>
-
-                <div className="skills__data">
-                    <i className="bx bxl-aws"></i>
-
-                    <div>
-                        <h3 className='skills__name'>S3</h3>
                         <span className='skills__level'>Basics</span>
                     </div>
                 </div>

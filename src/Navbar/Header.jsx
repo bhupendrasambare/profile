@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./header.css"
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -8,39 +9,39 @@ const Header = () => {
   return (
     <div className='header'>
         <div className=' nav container'>
-            <a href='#home' className='nav__logo'>Bhupendra</a>
+            <a to='/' className='nav__logo'>Bhupendra</a>
 
             <div className={toggle ? 'nav__menu show-menu':"nav__menu"}>
                 <ul className="nav__list">
                     <li className="nav__item">
-                        <a href="#home" className="nav__link active">
+                        <Link to={"/"} className="nav__link active">
                             <i className="uil uil-estate nav__icon"></i>Home
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav__item">
-                        <a href="#about" className="nav__link">
+                        <Link to="/about" className="nav__link">
                             <i className="uil uil-user nav__icon"></i>About
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav__item">
-                        <a href="#qualification" className="nav__link">
+                        <Link to="/qualification" className="nav__link">
                             <i className="uil uil-briefcase-alt nav__icon"></i>Qualification
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav__item">
-                        <a href="#skills" className="nav__link">
+                        <Link to="/skills" className="nav__link">
                             <i className="uil uil-file-alt nav__icon"></i>Skills
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav__item">
-                        <a href="#portfolio" className="nav__link">
+                        <Link to="/portfolio" className="nav__link">
                             <i className="uil uil-scenery nav__icon"></i>Portfolio
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav__item">
-                        <a href="#contact" className="nav__link">
+                        <Link to="/contact" className="nav__link">
                             <i className="uil uil-message nav__icon"></i>Contact
-                        </a>
+                        </Link>
                     </li>
                 </ul>
 
