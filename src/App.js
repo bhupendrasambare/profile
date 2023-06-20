@@ -7,6 +7,7 @@ import Qualifications from "./Qualification/Component/Qualifications.jsx";
 import Skills from "./Skills/Component/Skills";
 import { Route, Routes } from "react-router-dom";
 import { RingLoader } from "react-spinners";
+import Contact from "./Contact/Component/Contact";
 
 window.addEventListener('load', (event) => {
   console.log('page is fully loaded');
@@ -37,6 +38,7 @@ function App() {
                   <Route path="/qualification" element={<Qualifications/>}/>
                   <Route path="/skills" element={<Skills/>}/>
                   <Route path="/portfolio" element={<Portfolio/>}/>
+                  <Route path="/contact" element={<Contact/>}/>
               </Routes>
           </main>
         </>
