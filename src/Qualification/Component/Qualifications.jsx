@@ -39,7 +39,7 @@ const Qualifications = () => {
                     
                     <div className="qualification__data">
                         <div>
-                            <div className='justify-content-center d-flex'>
+                            <div className='justify-content-center'>
                                 <div className='qualification-images-limit'>
                                     <img className="w-100 ml-auto qualification-images" src="https://source.unsplash.com/random/?coading"/>
                                 </div>
@@ -98,9 +98,9 @@ const Qualifications = () => {
 
                     <div className="qualification__data">
                         <div>
-                            <div className='justify-content-center d-flex'>
+                            <div className='justify-content-center'>
                                 <div className='qualification-images-limit'>
-                                    <img className="w-100 ml-auto qualification-images" src="https://source.unsplash.com/random/?coading"/>
+                                    <img className="w-100 ml-auto qualification-images" src="https://source.unsplash.com/random/?tech"/>
                                 </div>
                                 <div className=''>
                                     <h3 className="qualification__title">
@@ -161,7 +161,7 @@ const Qualifications = () => {
                     
                     <div className="qualification__data">
                         <div>
-                            <div className='justify-content-center d-flex'>
+                            <div className='justify-content-center'>
                                 <div className='qualification-images-limit'>
                                     <img className="w-100 ml-auto qualification-images" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Seal_of_Maharashtra.svg"/>
                                 </div>
