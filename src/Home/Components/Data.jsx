@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Data = () => {
   return (
@@ -60,7 +61,7 @@ const Data = () => {
         Proven full-stack java developer with a passion to learn and work with new technologies that make a positive impact on society. Extremely proficient in Java technologies like spring boot and hibernate.<br/>Dedicated to learning better ways to write clean and efficient code while keeping up with the newest tech stacks. 
         </p>
 
-        <a className="home__link button button--flex" href="#contact">
+        <Link className="home__link button button--flex" to="/contact">
             Say Hello 
             <svg
                   className="button__icon"
@@ -79,7 +80,7 @@ const Data = () => {
                     fill="var(--container-color)"
                   ></path>
             </svg>
-        </a>
+        </Link>
     </div>
   )
 }

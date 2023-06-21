@@ -45,13 +45,13 @@ const Qualifications = () => {
                                 </div>
                                 <div className=''>
                                     <h3 className="qualification__title">
-                                        CSKA Automation
+                                        Viva Tech R&D
                                     </h3>
                                     <span className="qualification__subtitle">
-                                        Software Engineer Trainee
+                                        Java Software Developer
                                     </span>
                                     <div className="qualification__calender">
-                                        <i className="uil uil-calendar-alt"></i> July 2022 - present
+                                        <i className="uil uil-calendar-alt"></i> February 2022 - present
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ const Qualifications = () => {
                                         Java Developer Intern
                                     </span>
                                     <div className="qualification__calender">
-                                        <i className="uil uil-calendar-alt"></i> April 2022 - June 2022
+                                        <i className="uil uil-calendar-alt"></i> April 2022 - January 2023
                                     </div>
                                 </div>
                             </div>
@@ -104,13 +104,13 @@ const Qualifications = () => {
                                 </div>
                                 <div className=''>
                                     <h3 className="qualification__title">
-                                        CSKA Automation
+                                        Apoliums Infotech
                                     </h3>
                                     <span className="qualification__subtitle">
-                                        Software Engineer Trainee
+                                        PHP Developer Intern
                                     </span>
                                     <div className="qualification__calender">
-                                        <i className="uil uil-calendar-alt"></i> July 2022 - present
+                                        <i className="uil uil-calendar-alt"></i> June 2021 - August 2021
                                     </div>
                                 </div>
                             </div>
@@ -146,13 +146,13 @@ const Qualifications = () => {
                                 <div>
 
                                     <h3 className="qualification__title">
-                                        CSKA Automation
+                                        Computer Science & IT
                                     </h3>
                                     <span className="qualification__subtitle">
-                                        Java Developer Intern
+                                        IPS Academy Indore
                                     </span>
                                     <div className="qualification__calender">
-                                        <i className="uil uil-calendar-alt"></i> April 2022 - June 2022
+                                        <i className="uil uil-calendar-alt"></i> 2019 - 2023
                                     </div>
                                 </div>
                             </div>
@@ -167,13 +167,13 @@ const Qualifications = () => {
                                 </div>
                                 <div className=''>
                                     <h3 className="qualification__title">
-                                        CSKA Automation
+                                        Nadekar Jr. collage
                                     </h3>
                                     <span className="qualification__subtitle">
-                                        Software Engineer Trainee
+                                        Maharashtra HSC
                                     </span>
                                     <div className="qualification__calender">
-                                        <i className="uil uil-calendar-alt"></i> July 2022 - present
+                                        <i className="uil uil-calendar-alt"></i> 2017 - 2019
                                     </div>
                                 </div>
                             </div>
@@ -205,13 +205,13 @@ const Qualifications = () => {
                                 <div>
 
                                     <h3 className="qualification__title">
-                                        CSKA Automation
+                                        Evergreen Highschool
                                     </h3>
                                     <span className="qualification__subtitle">
-                                        Java Developer Intern
+                                        Maharashtra SSC
                                     </span>
                                     <div className="qualification__calender">
-                                        <i className="uil uil-calendar-alt"></i> April 2022 - June 2022
+                                        <i className="uil uil-calendar-alt"></i> 2015 - 2017
                                     </div>
                                 </div>
                             </div>
