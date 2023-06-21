@@ -41,7 +41,7 @@ const Qualifications = () => {
                         <div>
                             <div className='justify-content-center'>
                                 <div className='qualification-images-limit'>
-                                    <img className="w-100 ml-auto qualification-images" src="https://source.unsplash.com/random/?coading"/>
+                                    <img className=" ml-auto qualification-images" src="https://source.unsplash.com/random/?coading"/>
                                 </div>
                                 <div className=''>
                                     <h3 className="qualification__title">
@@ -78,7 +78,7 @@ const Qualifications = () => {
                         <div>
                             <div className='justify-content-center'>
                                 <div className='w-100'>
-                                    <img className="w-100 ml-auto qualification-images" src="https://source.unsplash.com/random/?building"/>
+                                    <img className=" ml-auto qualification-images" src="https://source.unsplash.com/random/?building"/>
                                 </div>
                                 <div>
 
@@ -96,11 +96,11 @@ const Qualifications = () => {
                         </div>
                     </div>
 
-                    <div className="qualification__data">
+                    <div className="qualification__data"> 
                         <div>
                             <div className='justify-content-center'>
                                 <div className='qualification-images-limit'>
-                                    <img className="w-100 ml-auto qualification-images" src="https://source.unsplash.com/random/?tech"/>
+                                    <img className=" ml-auto qualification-images" src="https://source.unsplash.com/random/?tech"/>
                                 </div>
                                 <div className=''>
                                     <h3 className="qualification__title">
@@ -141,7 +141,7 @@ const Qualifications = () => {
                         <div>
                             <div className='justify-content-center'>
                                 <div className='w-100'>
-                                    <img className="w-100 ml-auto qualification-images" src="https://upload.wikimedia.org/wikipedia/en/6/6c/Institute_of_Engineering_and_Science_IPS_Academy_logo.jpg"/>
+                                    <img className=" ml-auto qualification-images" src="https://upload.wikimedia.org/wikipedia/en/6/6c/Institute_of_Engineering_and_Science_IPS_Academy_logo.jpg"/>
                                 </div>
                                 <div>
 
@@ -163,7 +163,7 @@ const Qualifications = () => {
                         <div>
                             <div className='justify-content-center'>
                                 <div className='qualification-images-limit'>
-                                    <img className="w-100 ml-auto qualification-images" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Seal_of_Maharashtra.svg"/>
+                                    <img className=" ml-auto qualification-images" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Seal_of_Maharashtra.svg"/>
                                 </div>
                                 <div className=''>
                                     <h3 className="qualification__title">
@@ -200,7 +200,7 @@ const Qualifications = () => {
                         <div>
                             <div className='justify-content-center'>
                                 <div className='w-100'>
-                                    <img className="w-100 ml-auto qualification-images" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Seal_of_Maharashtra.svg"/>
+                                    <img className=" ml-auto qualification-images" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Seal_of_Maharashtra.svg"/>
                                 </div>
                                 <div>
 
