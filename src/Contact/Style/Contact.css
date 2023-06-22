@@ -5,6 +5,7 @@
 .svg {
 	height: 23rem;
   width: 100%;
+  margin-left: 40px;
 }
 .w-100{
   width: 100%;
@@ -79,7 +80,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 5px;
+  gap: 5%;
+  width: auto;
 }
 
 .contact-card {
