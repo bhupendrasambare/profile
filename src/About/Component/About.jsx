@@ -1,5 +1,5 @@
 import "../Style/about.css"
-import AboutImage from "../../assets/Profile.jpg"
+import AboutImage from "../../assets/profile-1.jpg"
 import CV from "../../assets/Bhupendra-sambare.pdf"
 import Info from './Info'
 import { Motion } from "../../Component/Motion"
