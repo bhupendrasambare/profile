@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.3164333b.css",
-    "main.js": "/static/js/main.f26dbf71.js",
+    "main.js": "/static/js/main.d859c8d3.js",
+    "static/media/profile-1.jpg": "/static/media/profile-1.816d0088d0a05e535c00.jpg",
     "static/media/crypto-tracker.jpeg": "/static/media/crypto-tracker.085ca307206ece2f6405.jpeg",
-    "static/media/Profile.jpg": "/static/media/Profile.b3273b004a770bcf0e1f.jpg",
     "static/media/todo.jpg": "/static/media/todo.236652cc6beb9321961f.jpg",
     "static/media/Profile-3.jpg": "/static/media/Profile-3.c954748a4f6cd0452253.jpg",
     "static/media/Bhupendra-sambare.pdf": "/static/media/Bhupendra-sambare.b6e40f3ebcb373f7efe6.pdf",
@@ -12,10 +12,10 @@
     "static/media/course-management.avif": "/static/media/course-management.1fb9eee38a32142bee56.avif",
     "index.html": "/index.html",
     "main.3164333b.css.map": "/static/css/main.3164333b.css.map",
-    "main.f26dbf71.js.map": "/static/js/main.f26dbf71.js.map"
+    "main.d859c8d3.js.map": "/static/js/main.d859c8d3.js.map"
   },
   "entrypoints": [
     "static/css/main.3164333b.css",
-    "static/js/main.f26dbf71.js"
+    "static/js/main.d859c8d3.js"
   ]
 }
