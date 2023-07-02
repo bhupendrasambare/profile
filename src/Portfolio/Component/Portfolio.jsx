@@ -4,7 +4,7 @@ import { Motion } from '../../Component/Motion'
 import coursemangement from "../../assets/course-management.avif"
 import blogImage from "../../assets/blog-img.avif"
 import RestApi from "../../assets/rest-api.jpg"
-import cryptoTracker from "../../assets/crypto-tracker.png"
+import cryptoTracker from "../../assets/crypto-tracker.jpeg"
 import Todo from "../../assets/todo.jpg"
 
 const Portfolio = () => {
@@ -20,7 +20,7 @@ const Portfolio = () => {
             <div className="portfolio__content ">
                     <a href='https://bhupendrasambare.github.io/blockchain-todo/' target='_blank' className="portfolio__button">
                 <img className="w-100 border-radius-20-top" src={Todo}/>
-                <div className="card-inner">
+                <div className="card-inner h-100">
 
                         <div>
                             <h3 className="portfolio__title">Blockchain TODO</h3>
@@ -40,7 +40,7 @@ const Portfolio = () => {
             <div className="portfolio__content ">
                     <a href='https://github.com/bhupendrasambare/course-management-react-spring-boot' target='_blank' className="portfolio__button">
                 <img className="w-100 border-radius-20-top" src={coursemangement}/>
-                <div className="card-inner">
+                <div className="card-inner h-100">
 
                         <div>
                             <h3 className="portfolio__title">Course Management</h3>
@@ -61,7 +61,7 @@ const Portfolio = () => {
             <div className="portfolio__content ">
                     <a href='https://github.com/bhupendrasambare/Simple-blogminor-project' target='_blank' className="portfolio__button">
                 <img className="w-100 border-radius-20-top" src={blogImage}/>
-                <div className="card-inner">
+                <div className="card-inner h-100">
 
                         <div>
                             <h3 className="portfolio__title">Simple Blog</h3>
@@ -80,7 +80,7 @@ const Portfolio = () => {
             <div className="portfolio__content ">
                     <a href='https://bhupendrasambare.github.io/React-Crypto-Tracker/' target='_blank' className="portfolio__button">
                 <img className="w-100 border-radius-20-top" src={cryptoTracker}/>
-                <div className="card-inner">
+                <div className="card-inner h-100">
 
                         <div>
                             <h3 className="portfolio__title">Crypto Tracker</h3>
@@ -98,14 +98,14 @@ const Portfolio = () => {
             <div className="portfolio__content ">
                     <a href='https://github.com/bhupendrasambare/springboot-CRUD' target='_blank' className="portfolio__button">
                 <img className="w-100 border-radius-20-top" src={RestApi}/>
-                <div className="card-inner">
+                <div className="card-inner h-100">
 
                         <div>
                             <h3 className="portfolio__title">Spring Boot REST API</h3>
                         </div>
 
 
-                    <div className='portfolio__flex p-3'>
+                    <div className='portfolio__flex p-3 mt-auto'>
                         <i class='bx bxl-spring-boot portfolio__icon' title='Spring boot'></i>
                         <i class='bx bxs-data portfolio__icon' title='Database'></i>
                         <i className="bx bxl-github pl-2" title='Github'></i>
