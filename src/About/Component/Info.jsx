@@ -11,7 +11,7 @@ const Info = () => {
       months -= d1.getMonth();
       months += d2.getMonth();
       setYear(Math.floor(months/12));
-      months = (months<12)?months:month%12;
+      months = (months<12)?months:months%12;
       setMonth((months <= 0) ? 0 : months);
   },[])
   return (
@@ -41,3 +41,5 @@ const Info = () => {
 }
 
 export default Info
+
+
