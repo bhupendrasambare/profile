@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0dbb43a0.css",
-    "main.js": "/static/js/main.e552328d.js",
-    "static/media/crypto-tracker.png": "/static/media/crypto-tracker.d6a34f2e71af96bbdf4f.png",
+    "main.css": "/static/css/main.3164333b.css",
+    "main.js": "/static/js/main.f26dbf71.js",
+    "static/media/crypto-tracker.jpeg": "/static/media/crypto-tracker.085ca307206ece2f6405.jpeg",
     "static/media/Profile.jpg": "/static/media/Profile.b3273b004a770bcf0e1f.jpg",
     "static/media/todo.jpg": "/static/media/todo.236652cc6beb9321961f.jpg",
     "static/media/Profile-3.jpg": "/static/media/Profile-3.c954748a4f6cd0452253.jpg",
@@ -11,11 +11,11 @@
     "static/media/rest-api.jpg": "/static/media/rest-api.3a9028b8009ad9a0450b.jpg",
     "static/media/course-management.avif": "/static/media/course-management.1fb9eee38a32142bee56.avif",
     "index.html": "/index.html",
-    "main.0dbb43a0.css.map": "/static/css/main.0dbb43a0.css.map",
-    "main.e552328d.js.map": "/static/js/main.e552328d.js.map"
+    "main.3164333b.css.map": "/static/css/main.3164333b.css.map",
+    "main.f26dbf71.js.map": "/static/js/main.f26dbf71.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dbb43a0.css",
-    "static/js/main.e552328d.js"
+    "static/css/main.3164333b.css",
+    "static/js/main.f26dbf71.js"
   ]
 }
