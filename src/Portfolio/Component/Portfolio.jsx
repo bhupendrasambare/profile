@@ -19,7 +19,7 @@ const Portfolio = () => {
 
 
         <div className="portfolio__content ">
-                    <a href='https://bhupendrasambare.github.io/dontion/' target='_blank' className="portfolio__button">
+                    <a href='https://bhupendrasambare.github.io/donation/' target='_blank' className="portfolio__button">
                 <img className="w-100 border-radius-20-top" src={Donation}/>
                 <div className="card-inner h-100">
 
