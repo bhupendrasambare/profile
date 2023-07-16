@@ -9,11 +9,11 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --title-color: hsl(var(--hue), var(--sat), 100%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+  --text-color: hsl(var(--hue), var(--sat), 100%);
+  --body-color: hsl(var(--hue), var(--sat), 10%);
+  --container-color: #414141;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -72,6 +72,7 @@
 
 html {
   scroll-behavior: smooth;
+  min-height: 100vh;
 }
 ::-webkit-scrollbar {
   width: 0em;
@@ -90,7 +91,6 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
   color: var(--text-color);
 }
 
@@ -127,7 +127,6 @@ img {
   width: 100%;
   min-height: 100vh !important;
   display: flex;
-  background-color: rgb(255, 255, 255);
 }
 /*===============         REUSABLE CSS CLASSES ===============*/
 .section {
@@ -184,7 +183,16 @@ img {
   display: inline-flex;
   align-items: center;
 }
-
+html{
+  background: url("./assets/bg.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: 0%;
+  color: #fff;
+}
+.nav, .header{
+  background-color: #e20e0e00 !important;
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -231,4 +239,7 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+}
+.btn-home{
+  background-color: rgb(65, 65, 65);
 }

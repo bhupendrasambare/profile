@@ -1,6 +1,6 @@
 .footer{
     background-color: var(--container-color);
-    border-top: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(81, 81, 81, 0.1);
 }
 
 .footer__container{
