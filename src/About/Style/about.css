@@ -41,10 +41,11 @@
 }
 
 .about__description{
-    padding: 0 4rem 0 0;
+    padding: 10px 2rem;
+    border-radius: 20px;
     margin-bottom: var(--mb-2-5);
+    background-color: var(--container-color);
 }
-
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

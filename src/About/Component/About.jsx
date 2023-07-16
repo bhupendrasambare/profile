@@ -30,7 +30,7 @@ const About = () => {
                         need to delay the front-end engineer’s other work.
                     </p>
 
-                    <a download href={CV} className="button button--flex">Download CV 
+                    <a download href={CV} className="button btn-container">Download CV 
                     <svg
                     className="button__icon"
                     xmlns="http://www.w3.org/2000/svg"
