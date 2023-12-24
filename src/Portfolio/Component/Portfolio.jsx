@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../Style/Portfolio.css'
 import { Motion } from '../../Component/Motion'
 import coursemangement from "../../assets/course-management.avif"
@@ -9,6 +9,9 @@ import Todo from "../../assets/todo.jpg"
 import Donation from "../../assets/donation.jpg"
 
 const Portfolio = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
   return (
     <Motion>
     <section className="portfolio section" id="portfolio">
@@ -19,7 +22,7 @@ const Portfolio = () => {
 
 
         <div className="portfolio__content ">
-                    <a href='https://bhupendrasambare.github.io/donation/' target='_blank' className="portfolio__button">
+                    <a href='https://bhupendrasambare.github.io/Blockchain-Donation/' target='_blank' className="portfolio__button">
                 <img className="w-100 border-radius-20-top" src={Donation}/>
                 <div className="card-inner h-100">
 
@@ -39,7 +42,7 @@ const Portfolio = () => {
             </div>
             
             <div className="portfolio__content ">
-                    <a href='https://bhupendrasambare.github.io/todo/' target='_blank' className="portfolio__button">
+                    <a href='https://bhupendrasambare.github.io/Blockchain-TODO/' target='_blank' className="portfolio__button">
                 <img className="w-100 border-radius-20-top" src={Todo}/>
                 <div className="card-inner h-100">
 

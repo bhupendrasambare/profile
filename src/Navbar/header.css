@@ -98,6 +98,9 @@
 
     .nav__toggle{
         font-size: 1.1rem;
+        background-color: black;
+        padding: 3px 6px;
+        border-radius: 50%;
     }
 
     .nav__close,

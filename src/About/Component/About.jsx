@@ -3,22 +3,30 @@ import AboutImage from "../../assets/profile-1.jpg"
 import CV from "../../assets/Bhupendra-sambare.pdf"
 import Info from './Info'
 import { Motion } from "../../Component/Motion"
+import { Slide } from "react-awesome-reveal"
+import { useEffect } from "react"
 
 const About = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
   return (
     <Motion>
         <section className="about section" id="about">
-            <h2 className="section__title">
-                About Me
-            </h2>
+            <Slide direction="up">
+                <h2 className="section__title">
+                    About Me
+                </h2>
+                <span className="section__subtitle">My introduction</span>
+            </Slide>
 
-            <span className="section__subtitle">My introduction</span>
 
             <div className="about__container container grid">
                 <img src={AboutImage} alt="" className="about__img" />
 
-                <div className="about__data">
+            <div className="about__data">
+                <Slide direction="up">
 
                     <Info/>
 
@@ -29,8 +37,10 @@ const About = () => {
                         React js front end to ensure smooth interactions without the
                         need to delay the front-end engineer’s other work.
                     </p>
+                </Slide>
+                <Slide direction="up">
 
-                    <a download href={CV} className="button btn-container">Download CV 
+                    <a download href={CV} className="button btn-container about-radius">Download CV 
                     <svg
                     className="button__icon"
                     xmlns="http://www.w3.org/2000/svg"
@@ -57,6 +67,7 @@ const About = () => {
                     </svg>
                     </a>
 
+                </Slide>
                 </div>
             </div>
 

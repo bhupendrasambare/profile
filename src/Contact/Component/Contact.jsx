@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../Style/Contact.css"
 import { Motion } from '../../Component/Motion'
 
 
 const Contact = () => {
+        useEffect(() => {
+            window.scrollTo(0, 0)
+        }, [])
   return (
     <Motion>
         <section className="portfolio section" id="portfolio">
