@@ -55,7 +55,7 @@
 
 .home__description{
     max-width: 400px;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-2);
 }
 
 .home__img{
@@ -208,4 +208,11 @@
         width: 22px;
         height: 22px;
     }
+}
+.mh-2{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.flex{
+    display: flex;
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Data from './Data'
 import '../Style/home.css'
 import ScrollDown from './ScrollDown'
@@ -6,6 +6,9 @@ import Social from './Social'
 import { Motion } from '../../Component/Motion'
 
 const Home = () => {
+  useEffect(() => {
+      window.scrollTo(0, 0)
+  }, [])
   return (
     <Motion>
       <section className="home section bg-dark text-light" id="home">

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./header.css"
 import { Link } from 'react-router-dom';
+import { Fade, Slide } from 'react-awesome-reveal';
 
 const Header = () => {
 
@@ -12,6 +13,8 @@ const Header = () => {
             <Link to='/' className='nav__logo'>Bhupendra</Link>
 
             <div className={toggle ? 'nav__menu show-menu':"nav__menu"}>
+                <Slide direction='up'>
+
                 <ul className="nav__list">
                     <li className="nav__item">
                         <Link to={"/"} className="nav__link active">
@@ -44,6 +47,7 @@ const Header = () => {
                         </Link>
                     </li>
                 </ul>
+                </Slide>
 
                 <i className='uil uil-times nav__close'  onClick={() => showMenu(!toggle)}></i>
             </div>

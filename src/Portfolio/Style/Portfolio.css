@@ -69,3 +69,12 @@
 .card-inner{
     padding: 10px;
 }
+.bxl-github,
+.bxl-spring-boot,
+.bxs-hard-hat,
+.bxs-component,
+.bxs-data,
+.bx-data,
+.bxl-react{
+    background-color: #fff;
+}

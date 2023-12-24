@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Backend from './Backend'
 import Cloud from './Cloud'
 import Database from './Database'
@@ -7,6 +7,9 @@ import "../Style/Skills.css"
 import { Motion } from '../../Component/Motion'
 
 const Skills = () => {
+  useEffect(() => {
+      window.scrollTo(0, 0)
+  }, [])
   return (
     <Motion>
     <section className="skill section" id='skills'>

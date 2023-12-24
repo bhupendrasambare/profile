@@ -21,7 +21,7 @@ function App() {
         setLoading(false)
       },1000)
     },[])
-    
+
   return (
     
     <div className="App">
