@@ -22,7 +22,7 @@
 .skills__box{
     display: flex;
     justify-content: center;
-    /* column-gap: 2.5rem; */
+    column-gap: 2.5rem;
 }
 
 .skills__group{
@@ -35,9 +35,7 @@
 
 .skills__data{
     display: flex;
-    flex-flow: column;
     column-gap: 0.5rem;
-    text-align: center;
     /* justify-content: center; */
     align-items: center;
 }
@@ -51,7 +49,6 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
-    margin-top: 5px;
 }
 
 .skills__level{
@@ -85,112 +82,49 @@
 }
 
 .skills__data .bx{
-    font-size: 60px;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: #ffffff3a;
+    font-size: 40px;
     /* color: #3c3c3c; */
 }
 
 .bxl-spring-boot{
     color: #629b2d;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bxl-java{
     color: #d65d00;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bxl-php{
     color: #0061e9;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bxl-react{
     color: #009cfd;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bxl-bootstrap{
     color: #6300ef;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bxl-javascript{
     color: #eee132;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bxl-jquery{
     color: #0061e9;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bxs-data{
-    color: #005b85;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
+    color: #ffffff;
 }
 .bx-data{
     color: #00a2f3;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bx-category-alt{
     color: #ffa600;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bxl-aws{
     color: #ff6600;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bxl-github{
-    color: #3c3c3c;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
+    color: #ffffff;
 }
 .bxs-component{
     color: #17559c;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
 }
 .bxs-hard-hat{
     color: #ffe100;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding:5px;
-}
-
-.item-center{
-    width: max-content;
-    background-color: white;
-    justify-content: center;
-}
-.w-max{
-    width: max-content;
-}
-.j-center{
-    justify-content: center;
-    align-items: center;
-}
-.bg-white{
-    background-color: wheat;
-    justify-content: center;
-    align-items: center;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Slide } from 'react-awesome-reveal'
 
 const Backend = () => {
   return (
@@ -7,7 +8,7 @@ const Backend = () => {
 
         <div className="skills__box">
             <div className="skills__group">
-
+                <Slide direction='up' cascade  damping={0.1}>
                 <div className="skills__data">
                     <i className="bx bxl-spring-boot"></i>
 
@@ -16,7 +17,7 @@ const Backend = () => {
                         <span className='skills__level'>Intermediate</span>
                     </div>
                 </div>
-
+                
                 <div className="skills__data">
                     <i className="bx bxl-spring-boot"></i>
 
@@ -25,10 +26,11 @@ const Backend = () => {
                         <span className='skills__level'>Intermediate</span>
                     </div>
                 </div>
+                </Slide>
                 
             </div>
             <div className="skills__group">
-
+                <Slide direction='up' cascade  damping={0.1}>
                 <div className="skills__data">
                     <i className="bx bxl-java"></i>
 
@@ -46,6 +48,7 @@ const Backend = () => {
                         <span className='skills__level'>Intermediate</span>
                     </div>
                 </div>
+                </Slide>
 
             </div>
         </div>

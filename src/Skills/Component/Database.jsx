@@ -1,4 +1,5 @@
 import React from 'react'
+import { Slide } from 'react-awesome-reveal'
 
 const Database = () => {
   return (
@@ -7,7 +8,7 @@ const Database = () => {
 
         <div className="skills__box">
             <div className="skills__group">
-
+                <Slide direction='up' cascade  damping={0.1}>
                 <div className="skills__data">
                     <i className="bx bxs-data"></i>
 
@@ -16,10 +17,11 @@ const Database = () => {
                         <span className='skills__level'>Intermediate</span>
                     </div>
                 </div>
+                </Slide>
                 
             </div>
             <div className="skills__group">
-
+                <Slide direction='up' cascade  damping={0.1}>
                 <div className="skills__data">
                     <i className="bx bx-data"></i>
 
@@ -28,6 +30,7 @@ const Database = () => {
                         <span className='skills__level'>Intermediate</span>
                     </div>
                 </div>
+                </Slide>
 
             </div>
         </div>

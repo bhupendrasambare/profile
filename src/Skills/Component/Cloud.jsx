@@ -1,4 +1,5 @@
 import React from 'react'
+import { Slide } from 'react-awesome-reveal'
 
 const Cloud = () => {
   return (
@@ -7,7 +8,7 @@ const Cloud = () => {
 
         <div className="skills__box">
             <div className="skills__group">
-
+                <Slide direction='up' cascade  damping={0.1}>
                 <div className="skills__data">
                     <i class='bx bx-category-alt'></i>
 
@@ -25,10 +26,11 @@ const Cloud = () => {
                         <span className='skills__level'>Intermediate</span>
                     </div>
                 </div>
+                </Slide>
                 
             </div>
             <div className="skills__group">
-
+                <Slide direction='up' cascade  damping={0.1}>
                 <div className="skills__data">
                     <i className="bx bxl-aws"></i>
 
@@ -46,6 +48,7 @@ const Cloud = () => {
                         <span className='skills__level'>Intermediate</span>
                     </div>
                 </div>
+                </Slide>
 
             </div>
         </div>
