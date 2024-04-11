@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.f76c899c.css",
-    "main.js": "/static/js/main.8f2bf6a9.js",
-    "static/media/profile-1.jpg": "/static/media/profile-1.816d0088d0a05e535c00.jpg",
-    "static/media/crypto-tracker.jpeg": "/static/media/crypto-tracker.085ca307206ece2f6405.jpeg",
-    "static/media/bg.jpg": "/static/media/bg.1cbfee0080bdb901b7bb.jpg",
-    "static/media/donation.jpg": "/static/media/donation.5b68ab7e8045d836e0ab.jpg",
-    "static/media/todo.jpg": "/static/media/todo.236652cc6beb9321961f.jpg",
-    "static/media/Profile-3.jpg": "/static/media/Profile-3.c954748a4f6cd0452253.jpg",
-    "static/media/Bhupendra-sambare.pdf": "/static/media/Bhupendra-sambare.b6e40f3ebcb373f7efe6.pdf",
-    "static/media/blog-img.avif": "/static/media/blog-img.8f90d5e6b165567e78c8.avif",
-    "static/media/rest-api.jpg": "/static/media/rest-api.3a9028b8009ad9a0450b.jpg",
-    "static/media/course-management.avif": "/static/media/course-management.1fb9eee38a32142bee56.avif",
-    "index.html": "/index.html",
-    "main.f76c899c.css.map": "/static/css/main.f76c899c.css.map",
-    "main.8f2bf6a9.js.map": "/static/js/main.8f2bf6a9.js.map"
+    "main.css": "/portfolio/static/css/main.f7956f62.css",
+    "main.js": "/portfolio/static/js/main.ef6a31fd.js",
+    "static/media/profile-1.jpg": "/portfolio/static/media/profile-1.816d0088d0a05e535c00.jpg",
+    "static/media/crypto-tracker.jpeg": "/portfolio/static/media/crypto-tracker.085ca307206ece2f6405.jpeg",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.1cbfee0080bdb901b7bb.jpg",
+    "static/media/donation.jpg": "/portfolio/static/media/donation.5b68ab7e8045d836e0ab.jpg",
+    "static/media/todo.jpg": "/portfolio/static/media/todo.236652cc6beb9321961f.jpg",
+    "static/media/Profile-3.jpg": "/portfolio/static/media/Profile-3.c954748a4f6cd0452253.jpg",
+    "static/media/Bhupendra-sambare.pdf": "/portfolio/static/media/Bhupendra-sambare.b6e40f3ebcb373f7efe6.pdf",
+    "static/media/blog-img.avif": "/portfolio/static/media/blog-img.8f90d5e6b165567e78c8.avif",
+    "static/media/rest-api.jpg": "/portfolio/static/media/rest-api.3a9028b8009ad9a0450b.jpg",
+    "static/media/course-management.avif": "/portfolio/static/media/course-management.1fb9eee38a32142bee56.avif",
+    "index.html": "/portfolio/index.html",
+    "main.f7956f62.css.map": "/portfolio/static/css/main.f7956f62.css.map",
+    "main.ef6a31fd.js.map": "/portfolio/static/js/main.ef6a31fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f76c899c.css",
-    "static/js/main.8f2bf6a9.js"
+    "static/css/main.f7956f62.css",
+    "static/js/main.ef6a31fd.js"
   ]
 }
