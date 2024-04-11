@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Slide } from 'react-awesome-reveal';
 
 const Info = () => {
   const [month,setMonth] = useState(0);
@@ -16,24 +17,25 @@ const Info = () => {
   },[])
   return (
     <div className="about__info grid">
-        
-        <div className="about__box">
-            <i className="bx bx-award about__icon"></i>
-            <h3 className="about__title">Experiecne</h3>
-            <span className="about__subtitle">{year} Year {month} Month</span>
-        </div>
-        
-        <div className="about__box">
-            <i className="bx bx-briefcase-alt about__icon"></i>
-            <h3 className="about__title">Completed</h3>
-            <span className="about__subtitle">20+ Projects</span>
-        </div>
-        
-        <div className="about__box">
-            <i className='bx bx-badge-check about__icon'></i>
-            <h3 className="about__title">Certificates</h3>
-            <span className="about__subtitle">16+ Certificates </span>
-        </div>
+        <Slide direction='up' cascade  damping={0.1}>
+            <div className="about__box">
+                <i className="bx bx-award about__icon"></i>
+                <h3 className="about__title">Experiecne</h3>
+                <span className="about__subtitle">{year} Year {month} Month</span>
+            </div>
+            
+            <div className="about__box">
+                <i className="bx bx-briefcase-alt about__icon"></i>
+                <h3 className="about__title">Completed</h3>
+                <span className="about__subtitle">20+ Projects</span>
+            </div>
+            
+            <div className="about__box">
+                <i className='bx bx-badge-check about__icon'></i>
+                <h3 className="about__title">Certificates</h3>
+                <span className="about__subtitle">16+ Certificates </span>
+            </div>
+        </Slide>
 
 
     </div>

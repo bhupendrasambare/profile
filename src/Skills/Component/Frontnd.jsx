@@ -1,4 +1,5 @@
 import React from 'react'
+import { Slide } from 'react-awesome-reveal'
 
 const Frontnd = () => {
   return (
@@ -7,7 +8,7 @@ const Frontnd = () => {
 
         <div className="skills__box">
             <div className="skills__group">
-
+                <Slide direction='up' cascade  damping={0.1}>
                 <div className="skills__data">
                     <i className="bx bxl-react"></i>
 
@@ -25,9 +26,10 @@ const Frontnd = () => {
                         <span className='skills__level'>Intermediate</span>
                     </div>
                 </div>
+                </Slide>
             </div>
             <div className="skills__group">
-
+                <Slide direction='up' cascade  damping={0.1}>
                 <div className="skills__data">
                     <i className="bx bxl-jquery"></i>
 
@@ -45,6 +47,7 @@ const Frontnd = () => {
                         <span className='skills__level'>Basics</span>
                     </div>
                 </div>
+                </Slide>
                 
             </div>
         </div>

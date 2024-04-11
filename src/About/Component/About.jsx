@@ -26,10 +26,10 @@ const About = () => {
                 <img src={AboutImage} alt="" className="about__img" />
 
             <div className="about__data">
+
+                    <Info/> 
+
                 <Slide direction="up">
-
-                    <Info/>
-
                     <p className="about__description">
                         Software engineer with a proven ability to work creatively in
                         small and large team environments. For a team project, I was
