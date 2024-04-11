@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f7956f62.css",
-    "main.js": "/portfolio/static/js/main.ef6a31fd.js",
-    "static/media/profile-1.jpg": "/portfolio/static/media/profile-1.816d0088d0a05e535c00.jpg",
-    "static/media/crypto-tracker.jpeg": "/portfolio/static/media/crypto-tracker.085ca307206ece2f6405.jpeg",
-    "static/media/bg.jpg": "/portfolio/static/media/bg.1cbfee0080bdb901b7bb.jpg",
-    "static/media/donation.jpg": "/portfolio/static/media/donation.5b68ab7e8045d836e0ab.jpg",
-    "static/media/todo.jpg": "/portfolio/static/media/todo.236652cc6beb9321961f.jpg",
-    "static/media/Profile-3.jpg": "/portfolio/static/media/Profile-3.c954748a4f6cd0452253.jpg",
-    "static/media/Bhupendra-sambare.pdf": "/portfolio/static/media/Bhupendra-sambare.b6e40f3ebcb373f7efe6.pdf",
-    "static/media/blog-img.avif": "/portfolio/static/media/blog-img.8f90d5e6b165567e78c8.avif",
-    "static/media/rest-api.jpg": "/portfolio/static/media/rest-api.3a9028b8009ad9a0450b.jpg",
-    "static/media/course-management.avif": "/portfolio/static/media/course-management.1fb9eee38a32142bee56.avif",
-    "index.html": "/portfolio/index.html",
-    "main.f7956f62.css.map": "/portfolio/static/css/main.f7956f62.css.map",
-    "main.ef6a31fd.js.map": "/portfolio/static/js/main.ef6a31fd.js.map"
+    "main.css": "/profile/static/css/main.2910021b.css",
+    "main.js": "/profile/static/js/main.deeef70a.js",
+    "static/media/profile-1.jpg": "/profile/static/media/profile-1.816d0088d0a05e535c00.jpg",
+    "static/media/crypto-tracker.jpeg": "/profile/static/media/crypto-tracker.085ca307206ece2f6405.jpeg",
+    "static/media/bg.jpg": "/profile/static/media/bg.1cbfee0080bdb901b7bb.jpg",
+    "static/media/donation.jpg": "/profile/static/media/donation.5b68ab7e8045d836e0ab.jpg",
+    "static/media/todo.jpg": "/profile/static/media/todo.236652cc6beb9321961f.jpg",
+    "static/media/Profile-3.jpg": "/profile/static/media/Profile-3.c954748a4f6cd0452253.jpg",
+    "static/media/Bhupendra-sambare.pdf": "/profile/static/media/Bhupendra-sambare.b6e40f3ebcb373f7efe6.pdf",
+    "static/media/blog-img.avif": "/profile/static/media/blog-img.8f90d5e6b165567e78c8.avif",
+    "static/media/rest-api.jpg": "/profile/static/media/rest-api.3a9028b8009ad9a0450b.jpg",
+    "static/media/course-management.avif": "/profile/static/media/course-management.1fb9eee38a32142bee56.avif",
+    "index.html": "/profile/index.html",
+    "main.2910021b.css.map": "/profile/static/css/main.2910021b.css.map",
+    "main.deeef70a.js.map": "/profile/static/js/main.deeef70a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7956f62.css",
-    "static/js/main.ef6a31fd.js"
+    "static/css/main.2910021b.css",
+    "static/js/main.deeef70a.js"
   ]
 }
