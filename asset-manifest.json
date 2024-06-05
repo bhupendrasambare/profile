@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.2910021b.css",
-    "main.js": "/profile/static/js/main.deeef70a.js",
+    "main.css": "/profile/static/css/main.ff7c8851.css",
+    "main.js": "/profile/static/js/main.32b35f9e.js",
     "static/media/profile-1.jpg": "/profile/static/media/profile-1.816d0088d0a05e535c00.jpg",
+    "static/media/movies.png": "/profile/static/media/movies.e849217c7c0d2b2cc9f5.png",
+    "static/media/weather.png": "/profile/static/media/weather.bbb0351514fbfc82e223.png",
     "static/media/crypto-tracker.jpeg": "/profile/static/media/crypto-tracker.085ca307206ece2f6405.jpeg",
     "static/media/bg.jpg": "/profile/static/media/bg.1cbfee0080bdb901b7bb.jpg",
     "static/media/donation.jpg": "/profile/static/media/donation.5b68ab7e8045d836e0ab.jpg",
     "static/media/todo.jpg": "/profile/static/media/todo.236652cc6beb9321961f.jpg",
     "static/media/Profile-3.jpg": "/profile/static/media/Profile-3.c954748a4f6cd0452253.jpg",
-    "static/media/Bhupendra-sambare.pdf": "/profile/static/media/Bhupendra-sambare.b6e40f3ebcb373f7efe6.pdf",
     "static/media/blog-img.avif": "/profile/static/media/blog-img.8f90d5e6b165567e78c8.avif",
+    "static/media/Bhupendra-sambare.pdf": "/profile/static/media/Bhupendra-sambare.108fd0003635cf14e16c.pdf",
     "static/media/rest-api.jpg": "/profile/static/media/rest-api.3a9028b8009ad9a0450b.jpg",
     "static/media/course-management.avif": "/profile/static/media/course-management.1fb9eee38a32142bee56.avif",
     "index.html": "/profile/index.html",
-    "main.2910021b.css.map": "/profile/static/css/main.2910021b.css.map",
-    "main.deeef70a.js.map": "/profile/static/js/main.deeef70a.js.map"
+    "main.ff7c8851.css.map": "/profile/static/css/main.ff7c8851.css.map",
+    "main.32b35f9e.js.map": "/profile/static/js/main.32b35f9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2910021b.css",
-    "static/js/main.deeef70a.js"
+    "static/css/main.ff7c8851.css",
+    "static/js/main.32b35f9e.js"
   ]
 }
