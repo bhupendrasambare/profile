@@ -31,11 +31,11 @@ const About = () => {
 
                 <Slide direction="up">
                     <p className="about__description">
-                        Software engineer with a proven ability to work creatively in
-                        small and large team environments. For a team project, I was
-                        responsible for the back end, and I took it upon myself to learn
-                        React js front end to ensure smooth interactions without the
-                        need to delay the front-end engineer’s other work.
+                    🔹 I am a Java Spring Boot developer with 2 years of experience, 
+                    specializing in microservices and modular applications.<br/>🔹 With a solid background in
+                    React.js, MySQL, Spring Cloud, Apache Kafka, and Apache Tomcat, 
+                    I deliver seamless full stack solutions.<br/>🔹 Experienced in leading projects and conducting code reviews, 
+                    <br/>🔹 I thrive on continuous learning and innovation.
                     </p>
                 </Slide>
                 <Slide direction="up">

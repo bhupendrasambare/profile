@@ -64,10 +64,10 @@
     font-size: 30px;
 }
 .portfolio__flex{
-    padding: 20px;
+    padding: 0px 10px 10px 0px;
 }
 .card-inner{
-    padding: 10px;
+    padding: 2px 10px;
 }
 .bxl-github,
 .bxl-spring-boot,
@@ -82,6 +82,9 @@
 .bxl-aws,
 .bxl-jquery,
 .bx-category-alt,
+.bxl-tailwind-css,
+.bxl-android,
+.bxl-apple,
 .bxl-react{
     background-color: rgba(0, 0, 0, 0.200);
     box-shadow: rgba(255, 255, 255, 0.124) 0px 4px 12px;
