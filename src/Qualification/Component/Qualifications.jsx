@@ -62,7 +62,7 @@ const Qualifications = () => {
                                             Java Software Developer
                                         </span>
                                         <div className="qualification__calender">
-                                            <i className="uil uil-calendar-alt"></i> February 2022 - present
+                                            <i className="uil uil-calendar-alt"></i> February 2023 - present
                                         </div>
                                     </div>
                                 </Slide>
