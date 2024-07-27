@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.ff7c8851.css",
-    "main.js": "/profile/static/js/main.32b35f9e.js",
+    "main.css": "/profile/static/css/main.ec04ecda.css",
+    "main.js": "/profile/static/js/main.b2902bb9.js",
     "static/media/profile-1.jpg": "/profile/static/media/profile-1.816d0088d0a05e535c00.jpg",
     "static/media/movies.png": "/profile/static/media/movies.e849217c7c0d2b2cc9f5.png",
     "static/media/weather.png": "/profile/static/media/weather.bbb0351514fbfc82e223.png",
@@ -14,12 +14,14 @@
     "static/media/Bhupendra-sambare.pdf": "/profile/static/media/Bhupendra-sambare.108fd0003635cf14e16c.pdf",
     "static/media/rest-api.jpg": "/profile/static/media/rest-api.3a9028b8009ad9a0450b.jpg",
     "static/media/course-management.avif": "/profile/static/media/course-management.1fb9eee38a32142bee56.avif",
+    "static/media/vivatech_r_d_logo.jpeg": "/profile/static/media/vivatech_r_d_logo.3f95028a2943df64813d.jpeg",
+    "static/media/apoliums.jpeg": "/profile/static/media/apoliums.32dc0d01622380e98863.jpeg",
     "index.html": "/profile/index.html",
-    "main.ff7c8851.css.map": "/profile/static/css/main.ff7c8851.css.map",
-    "main.32b35f9e.js.map": "/profile/static/js/main.32b35f9e.js.map"
+    "main.ec04ecda.css.map": "/profile/static/css/main.ec04ecda.css.map",
+    "main.b2902bb9.js.map": "/profile/static/js/main.b2902bb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff7c8851.css",
-    "static/js/main.32b35f9e.js"
+    "static/css/main.ec04ecda.css",
+    "static/js/main.b2902bb9.js"
   ]
 }
