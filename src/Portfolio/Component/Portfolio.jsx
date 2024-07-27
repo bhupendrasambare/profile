@@ -48,9 +48,18 @@ const Portfolio = () => {
                             <a  href={project.link} target="_blank" rel="noopener noreferrer" >
                                 <h3 className="portfolio__title">{project.name}</h3>
                             </a>
-                            <div className='portfolio__flex p-3'>
+                            <div className='portfolio__flex p-3 d-flex'>
                                 {Object.entries(project.tech).map(([techName, iconClass]) => (
-                                    <i className={iconClass} title={techName} key={techName}></i>
+                                    <>
+                                        <div className="tech-name">
+                                            <div>
+                                                <i className={iconClass+" title-icon"} title={techName} key={techName}></i>
+                                            </div>
+                                            <div>
+                                                {techName}
+                                            </div>
+                                        </div>
+                                    </>
                                     ))}
                             </div>
                         </div>

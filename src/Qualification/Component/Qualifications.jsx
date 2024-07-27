@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import "../Style/Qualifications.css"
 import { Motion } from '../../Component/Motion';
 import { Slide } from 'react-awesome-reveal';
+import Vivatech from "../../assets/company/vivatech_r_d_logo.jpeg"
+import CSKA from "../../assets/company/cska automation.jpeg"
+import Apoliums from "../../assets/company/apoliums.jpeg"
 
 const Qualifications = () => {
 
@@ -49,7 +52,7 @@ const Qualifications = () => {
                             <div className='justify-content-center'>
                                 <Slide direction='up'>
                                     <div className='qualification-images-limit'>
-                                        <img className=" ml-auto qualification-images" src="https://source.unsplash.com/random/?technical"/>
+                                        <img className=" ml-auto qualification-images" src={Vivatech}/>
                                     </div>
                                     <div className=''>
                                         <h3 className="qualification__title">
@@ -88,7 +91,7 @@ const Qualifications = () => {
                             <div className='justify-content-center'>
                                 <Slide direction='up'>
                                     <div className='w-100'>
-                                        <img className=" ml-auto qualification-images" src="https://source.unsplash.com/random/?building"/>
+                                        <img className=" ml-auto qualification-images" src={CSKA}/>
                                     </div>
                                     <div>
 
@@ -112,7 +115,7 @@ const Qualifications = () => {
                             <div className='justify-content-center'>
                                 <Slide direction='up'>
                                     <div className='qualification-images-limit'>
-                                        <img className=" ml-auto qualification-images" src="https://source.unsplash.com/random/?tech"/>
+                                        <img className=" ml-auto qualification-images" src={Apoliums}/>
                                     </div>
                                     <div className=''>
                                         <h3 className="qualification__title">
