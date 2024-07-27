@@ -17,7 +17,7 @@
 }
 
 .portfolio__icon{
-    margin-right: 0.75rem;
+    margin-right: 0.2rem;
     display: block;
     font-size: 2rem;
     color: var(--title-color);
@@ -90,4 +90,24 @@
     box-shadow: rgba(255, 255, 255, 0.124) 0px 4px 12px;
     border-radius: 50%;
     padding:5px;
+}
+.align-c-c{
+    align-content: center !important;
+}
+.tech-name{
+    background-color: rgba(0, 0, 0, 0.200) !important;
+    box-shadow: rgba(255, 255, 255, 0) 0px 4px 12px !important;
+    border-radius: 20px 20px 20px 20px !important;
+    padding:2px 5px !important;
+    margin: 1PX !important;
+    font-size: 0.7rem !important;
+    display: flex;
+}
+
+.title-icon{
+    background-color: rgba(0, 0, 0, 0) !important;
+    font-size: 1rem !important;
+    border-radius: 0 !important;
+    padding:0px !important;
+    align-items: center !important;
 }

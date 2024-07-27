@@ -6,8 +6,8 @@
         "live": false,
         "tech": {
             "Spring Boot": "bx bxl-spring-boot portfolio__icon",
-            "Database": "bx bxs-data portfolio__icon",
-            "Github": "bx bxl-github pl-2"
+            "MySql": "bx bxs-data portfolio__icon",
+            "Github": "bx bxl-github portfolio__icon"
         },
         "image":"Microservices"
     },
@@ -17,11 +17,9 @@
         "github": true,
         "live": false,
         "tech": {
-            "Android": "bx bxl-android portfolio__icon",
-            "Apple": "bx bxl-apple portfolio__icon",
             "React native": "bx bxl-react portfolio__icon",
             "Tailwind": "bx bxl-tailwind-css portfolio__icon",
-            "Github": "bx bxl-github pl-2"
+            "Github": "bx bxl-github "
         },
         "image":"Movies"
     },{
@@ -30,11 +28,9 @@
         "github": true,
         "live": false,
         "tech": {
-            "Android": "bx bxl-android portfolio__icon",
-            "Apple": "bx bxl-apple portfolio__icon",
             "React native": "bx bxl-react portfolio__icon",
             "Tailwind": "bx bxl-tailwind-css portfolio__icon",
-            "Github": "bx bxl-github pl-2"
+            "Github": "bx bxl-github "
         },
         "image":"Weather"
     },{
@@ -46,7 +42,7 @@
             "Blockchain": "bx bxs-component portfolio__icon",
             "Hardhat": "bx bxs-hard-hat portfolio__icon",
             "React": "bx bxl-react portfolio__icon",
-            "Github": "bx bxl-github pl-2"
+            "Github": "bx bxl-github "
         },
         "image":"Donation"
     },
@@ -59,7 +55,7 @@
             "Blockchain": "bx bxs-component portfolio__icon",
             "Hardhat": "bx bxs-hard-hat portfolio__icon",
             "React": "bx bxl-react portfolio__icon",
-            "Github": "bx bxl-github pl-2"
+            "Github": "bx bxl-github portfolio__icon"
         },
         "image":"Todo"
     },
@@ -71,8 +67,8 @@
         "tech": {
             "Spring Boot": "bx bxl-spring-boot portfolio__icon",
             "React": "bx bxl-react portfolio__icon",
-            "Database": "bx bxs-data portfolio__icon",
-            "Github": "bx bxl-github pl-2"
+            "MySql": "bx bxs-data portfolio__icon",
+            "Github": "bx bxl-github portfolio__icon"
         },
         "image":"coursemangement"
     },
@@ -83,8 +79,8 @@
         "live": false,
         "tech": {
             "Spring Boot": "bx bxl-spring-boot portfolio__icon",
-            "Database": "bx bx-data portfolio__icon",
-            "Github": "bx bxl-github pl-2"
+            "MySql": "bx bx-data portfolio__icon",
+            "Github": "bx bxl-github portfolio__icon"
         },
         "image":"blogImage"
     },
@@ -96,7 +92,7 @@
         "live": true,
         "tech": {
             "React": "bx bxl-react portfolio__icon",
-            "Github": "bx bxl-github pl-2"
+            "Github": "bx bxl-github portfolio__icon"
         },
         "image":"cryptoTracker"
     },
@@ -107,8 +103,8 @@
         "live": false,
         "tech": {
             "Spring Boot": "bx bxl-spring-boot portfolio__icon",
-            "Database": "bx bxs-data portfolio__icon",
-            "Github": "bx bxl-github pl-2"
+            "MySql": "bx bxs-data portfolio__icon",
+            "Github": "bx bxl-github portfolio__icon"
         },
         "image":"RestApi"
     }
