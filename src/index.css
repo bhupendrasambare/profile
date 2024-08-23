@@ -243,3 +243,46 @@ html{
 .btn-home{
   background-color: rgb(65, 65, 65);
 }
+
+.bxl-spring-boot{
+  color: #629b2d;
+}
+.bxl-java{
+  color: #d65d00;
+}
+.bxl-php{
+  color: #0061e9;
+}
+.bxl-react{
+  color: #009cfd;
+}
+.bxl-bootstrap{
+  color: #6300ef;
+}
+.bxl-javascript{
+  color: #eee132;
+}
+.bxl-jquery{
+  color: #0061e9;
+}
+.bxs-data{
+  color: #ffffff;
+}
+.bx-data{
+  color: #00a2f3;
+}
+.bx-category-alt{
+  color: #ffa600;
+}
+.bxl-aws{
+  color: #ff6600;
+}
+.bxl-github{
+  color: #ffffff;
+}
+.bxs-component{
+  color: #17559c;
+}
+.bxs-hard-hat{
+  color: #ffe100;
+}
