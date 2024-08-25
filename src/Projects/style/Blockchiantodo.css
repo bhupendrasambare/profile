@@ -1,0 +1,73 @@
+.bct_flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: calc(100vh - 120px);
+}
+.bct_intro{
+    max-width: 600px;
+    flex: 1;
+    margin: 0vh 5vh ;
+}
+.bct_title{
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+}
+.bct_description{
+    margin: 15px 0px;
+    max-width: 400px;
+}
+.bct_tech_stack{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: nowrap;
+}
+.bct_tech_stack_logo{
+    font-size: 2rem;
+    margin-right: 20px;
+}
+.btc_button_section{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+}
+.bct_btn_github{
+    font-size: 1rem;
+    background-color: white;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+}
+.bct_BiLogoGithub,.bct_BiGlobe{
+    margin-right: 5px;
+    font-size: 30px;
+}
+.bct_btn_Website{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #fff;
+}
+
+
+.bct_image{
+    padding: 20px;
+    flex: 1;
+    max-width:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bct_image-orignal{
+    min-width: 250px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgba(128, 128, 128, 0.445);
+}
