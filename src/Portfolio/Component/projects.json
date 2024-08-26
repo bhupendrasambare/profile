@@ -2,6 +2,7 @@
     {
         "name": "Spring Boot Microservices",
         "link": "https://github.com/bhupendrasambare/Springboot-Microservices",
+        "description":"Spring boot microservices is a practical implementation of spring boot microservices with spring cloud for api gateway impling a project structure capable of handeling complex functionality of software application",
         "github": true,
         "live": false,
         "tech": {
@@ -14,41 +15,47 @@
     {
         "name": "Movies Recomendation",
         "link": "https://github.com/bhupendrasambare/React-Native-Movies",
+        "description":"Movies Recomendation is a React Native mobile application available for both Android and IOS build allowing usesrs to search and geater information about the popular Movies, TV shows, Drama and about there information along with cast information",
         "github": true,
         "live": false,
         "tech": {
             "React native": "bx bxl-react portfolio__icon",
             "Tailwind": "bx bxl-tailwind-css portfolio__icon",
-            "Github": "bx bxl-github "
+            "Github": "bx bxl-github portfolio__icon "
         },
         "image":"Movies"
     },{
         "name": "Weather forcast App",
         "link": "https://github.com/bhupendrasambare/Weather-App",
+        "description":"Weather forcast App is a React Native mobile application available for both Android and IOS build allowing usesrs to get informed about the weather across the globe with forcast of upto 7 days",
         "github": true,
         "live": false,
         "tech": {
             "React native": "bx bxl-react portfolio__icon",
             "Tailwind": "bx bxl-tailwind-css portfolio__icon",
-            "Github": "bx bxl-github "
+            "Github": "bx bxl-github portfolio__icon "
         },
         "image":"Weather"
     },{
         "name": "Blockchain Donation",
-        "link": "https://bhupendrasambare.github.io/Blockchain-Donation/",
+        "git": "https://bhupendrasambare.github.io/Blockchain-Donation/",
+        "link": "https://github.com/bhupendrasambare/Blockchain-Donation/",
+        "description":"Blockchain Donation is a DApp build over Solidity smart contract allowing users to donate vertual currency (Crypto) for better cause",
         "github": false,
         "live": true,
         "tech": {
             "Blockchain": "bx bxs-component portfolio__icon",
             "Hardhat": "bx bxs-hard-hat portfolio__icon",
             "React": "bx bxl-react portfolio__icon",
-            "Github": "bx bxl-github "
+            "Github": "bx bxl-github portfolio__icon "
         },
         "image":"Donation"
     },
     {
         "name": "Blockchain TODO",
-        "link": "#/portfolio/blockchain-todo",
+        "link": "https://github.com/bhupendrasambare/Blockchain-TODO",
+        "git": "https://bhupendrasambare.github.io/Blockchain-TODO",
+        "description":"Blockchain Donation is a DApp build over Solidity smart contract and Hardhat, it helps users to save there information over the decentralise network allowing complete privecy and healps to staty put on the task which users have save for themeself",
         "github": false,
         "live": true,
         "tech": {
@@ -62,6 +69,7 @@
     {
         "name": "Course Management",
         "link": "https://github.com/bhupendrasambare/course-management-react-spring-boot",
+        "description":"Course management system is a fullstack project which solves the need of online learning using a proper learning platform which keeps track of usres learning process and alow admins and intsructor to check the overall courses and teachers record.",
         "github": true,
         "live": false,
         "tech": {
@@ -75,6 +83,7 @@
     {
         "name": "Simple Blog",
         "link": "https://github.com/bhupendrasambare/Simple-blogminor-project",
+        "description":"Simple blog is a Spring boot thymeleaf project for showcasing diffrent types of blogs with categories through wich people can explore there thoughts and ides, it has an attractive Ui and easy to use fuctionality with login and register functionality.",
         "github": true,
         "live": false,
         "tech": {
@@ -86,8 +95,9 @@
     },
     {
         "name": "Crypto Tracker",
-        "link": "https://bhupendrasambare.github.io/React-Crypto-Tracker/",
-        "githubLink": "https://github.com/bhupendrasambare/React-Crypto-Tracker",
+        "git": "https://bhupendrasambare.github.io/React-Crypto-Tracker/",
+        "link": "https://github.com/bhupendrasambare/React-Crypto-Tracker",
+        "description":"Crypto tracker is a 3rd party api integration projects which gives you inforation of cypto markey allowing you to see trends between dirrent type of cyto currency.",
         "github": true,
         "live": true,
         "tech": {
@@ -99,6 +109,7 @@
     {
         "name": "Spring Boot REST API",
         "link": "https://github.com/bhupendrasambare/springboot-CRUD",
+        "description":"Spring boot REST API Project is a project for learning the easy doing thing on spring boot along with the project structure and JPA library making it easy to communicate over the database.",
         "github": true,
         "live": false,
         "tech": {

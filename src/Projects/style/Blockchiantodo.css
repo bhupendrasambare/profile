@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 300px);
 }
 .bct_intro{
     max-width: 600px;
