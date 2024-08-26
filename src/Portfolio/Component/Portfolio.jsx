@@ -12,6 +12,7 @@ import Movies from "../../assets/movies.png"
 import Microservices from "../../assets/microservices.png"
 
 import portfolioData from './projects.json';
+import { Roll } from 'react-awesome-reveal'
 
 const images = {
     coursemangement,
@@ -39,32 +40,34 @@ const Portfolio = () => {
         <div className="portfolio__container container grid">                    
             {
             portfolioData.map((project, index) => (
-                <div className="portfolio__content" key={index}>
-                    <a className="portfolio__button">
-                        <a  href={project.link} target="_blank" rel="noopener noreferrer" >
-                            <img className="w-100 border-radius-20-top" src={images[project.image]} alt={project.name}/>
-                        </a>
-                        <div className="card-inner h-100">
+                <Roll triggerOnce direction='fade' cascade  damping={0.1}>
+                    <div className="portfolio__content" key={index}>
+                        <a className="portfolio__button">
                             <a  href={project.link} target="_blank" rel="noopener noreferrer" >
-                                <h3 className="portfolio__title">{project.name}</h3>
+                                <img className="w-100 border-radius-20-top" src={images[project.image]} alt={project.name}/>
                             </a>
-                            <div className='portfolio__flex p-3 d-flex'>
-                                {Object.entries(project.tech).map(([techName, iconClass]) => (
-                                    <>
-                                        <div className="tech-name">
-                                            <div>
-                                                <i className={iconClass+" title-icon"} title={techName} key={techName}></i>
+                            <div className="card-inner h-100">
+                                <a  href={project.link} target="_blank" rel="noopener noreferrer" >
+                                    <h3 className="portfolio__title">{project.name}</h3>
+                                </a>
+                                <div className='portfolio__flex p-3 d-flex'>
+                                    {Object.entries(project.tech).map(([techName, iconClass]) => (
+                                        <>
+                                            <div className="tech-name">
+                                                <div>
+                                                    <i className={iconClass+" title-icon"} title={techName} key={techName}></i>
+                                                </div>
+                                                <div>
+                                                    {techName}
+                                                </div>
                                             </div>
-                                            <div>
-                                                {techName}
-                                            </div>
-                                        </div>
-                                    </>
-                                    ))}
+                                        </>
+                                        ))}
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
+                </Roll>
             ))}
 
         </div>

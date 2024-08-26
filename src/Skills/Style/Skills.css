@@ -1,7 +1,9 @@
 .skills__container{
-    grid-template-columns: repeat(2,350px);
-    column-gap: 2rem;
+    /* grid-template-columns: repeat(2,350px);
+    column-gap: 2rem; */
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .skills__content{
@@ -55,7 +57,7 @@
     font-size: var(--tiny-font-size);
 }
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     .skills__container{
         grid-template-columns: max-content;
         row-gap: 2rem;
@@ -79,52 +81,84 @@
     .skills__name{
         font-size: var(--small-font-size);
     }
-}
+} */
 
 .skills__data .bx{
     font-size: 40px;
     /* color: #3c3c3c; */
 }
-
-.bxl-spring-boot{
+.bg-spring-boot{
     color: #629b2d;
 }
-.bxl-java{
-    color: #d65d00;
+.bg-java{
+    color: #d65d00 !important;
 }
-.bxl-php{
-    color: #0061e9;
+.bg-php{
+    color: #0061e9 !important;
 }
-.bxl-react{
-    color: #009cfd;
+.bg-react{
+    color: #009cfd !important;
 }
-.bxl-bootstrap{
-    color: #6300ef;
+.bg-bootstrap{
+    color: #6300ef !important;
 }
-.bxl-javascript{
-    color: #eee132;
+.bg-javascript{
+    color: #eee132 !important;
 }
-.bxl-jquery{
-    color: #0061e9;
+.bg-jquery{
+    color: #0061e9 !important;
 }
-.bxs-data{
-    color: #ffffff;
+.bg-data{
+    color: #ffffff !important;
 }
-.bx-data{
-    color: #00a2f3;
+.bg-data{
+    color: #00a2f3 !important;
 }
-.bx-category-alt{
-    color: #ffa600;
+.bg-category-alt{
+    color: #ffa600 !important;
 }
-.bxl-aws{
-    color: #ff6600;
+.bg-aws{
+    color: #ff6600 !important;
 }
-.bxl-github{
-    color: #ffffff;
+.bg-github{
+    color: #ffffff !important;
 }
-.bxs-component{
-    color: #17559c;
+.bg-component{
+    color: #17559c !important;
 }
-.bxs-hard-hat{
-    color: #ffe100;
+.bg-hard-hat{
+    color: #ffe100 !important;
+}
+.bg-hibernate{
+    color: #d8b400 !important;
+}
+.bg-Kafka{
+    color: #565656 !important;
+}
+.skills-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    
+}
+.skills-card-main{
+    align-items: center;
+    margin: 10px;
+    padding: 10px 0px;
+    background-color: #0000003a;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+}
+.skill_icon_top{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.skills__name_title{
+    margin-top: 15px;
+    font-size: 1rem;
 }

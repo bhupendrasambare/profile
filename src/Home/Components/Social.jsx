@@ -1,10 +1,10 @@
 import React from 'react'
-import { JackInTheBox} from 'react-awesome-reveal'
+import { Roll} from 'react-awesome-reveal'
 
 const Social = () => {
   return (
     <div className="home__social">
-    <JackInTheBox direction='up'>
+    <Roll direction='up'>
       <a href='https://twitter.com/bhupendra_SAM' target="_blank" className="home__social-icon">
           <i className="uil uil-twitter-alt"></i>
       </a>
@@ -20,7 +20,7 @@ const Social = () => {
       <a href='https://www.instagram.com/bhupendra.sambare/' target="_blank" className="home__social-icon">
           <i className="uil uil-instagram"></i>
       </a>
-    </JackInTheBox>
+    </Roll>
     </div>
   )
 }
