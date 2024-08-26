@@ -111,3 +111,28 @@
     padding:0px !important;
     align-items: center !important;
 }
+.model_box{
+    display: display-block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 60px;
+    bottom: 20px;
+    width: calc(100% - 20px);
+    height: calc(100vh - 100px);
+    overflow: auto;
+    background-color: rgb(48, 48, 48);
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+.model_header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.model_header_close{
+    font-size: 30px;
+    margin-right: 3%;
+}

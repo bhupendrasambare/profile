@@ -6,7 +6,7 @@ import Frontnd from './Frontnd'
 import "../Style/Skills.css"
 import { Motion } from '../../Component/Motion'
 import { FaJava } from 'react-icons/fa'
-import { SiAmazonec2, SiApachekafka, SiApachetomcat, SiBootstrap, SiGithub, SiHibernate, SiJavascript, SiJenkins, SiMysql, SiPhp, SiReact, SiSpringboot, SiVaadin } from 'react-icons/si'
+import { SiAmazonec2, SiApachekafka, SiApachetomcat, SiBootstrap, SiDocker, SiGithub, SiHibernate, SiJavascript, SiJenkins, SiMysql, SiPhp, SiReact, SiSpringboot, SiVaadin } from 'react-icons/si'
 import { Zoom } from 'react-awesome-reveal'
 
 const Skills = () => {
@@ -26,34 +26,28 @@ const Skills = () => {
 
         <div className="skills__container container">
             <div className="skills-card-container">
-                <Zoom direction='fade' cascade  damping={0.1}>
+                <Zoom triggerOnce direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <FaJava className="bg-java"/>
                     </div>
                     <h3 className='skills__name_title'>Java</h3>
-                    <span className='skills__level'>Proficient</span>
+                    <span className='skills__level'>Expert</span>
                 </div>
-                </Zoom>
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <SiSpringboot className="bg-spring-boot"/>
                     </div>
                     <h3 className='skills__name_title'>Spring Boot</h3>
-                    <span className='skills__level'>Proficient</span>
+                    <span className='skills__level'>Expert</span>
                 </div>
-                </Zoom>
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <SiHibernate className="bg-hibernate"/>
                     </div>
                     <h3 className='skills__name_title'>Hibernate</h3>
-                    <span className='skills__level'>Proficient</span>
+                    <span className='skills__level'>Expert</span>
                 </div>
-                </Zoom>
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <SiApachekafka className="bg-Kafka"/>
@@ -61,7 +55,6 @@ const Skills = () => {
                     <h3 className='skills__name_title'>Apache Kafka</h3>
                     <span className='skills__level'>Proficient</span>
                 </div>
-                </Zoom>
                 {/* <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
@@ -71,16 +64,13 @@ const Skills = () => {
                     <span className='skills__level'>Proficient</span>
                 </div>
                 </Zoom> */}
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <SiJavascript className="bg-javascript"/>
                     </div>
                     <h3 className='skills__name_title'>Javascript</h3>
-                    <span className='skills__level'>Proficient</span>
+                    <span className='skills__level'>Expert</span>
                 </div>
-                </Zoom>
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <SiReact className="bg-react" />
@@ -88,8 +78,6 @@ const Skills = () => {
                     <h3 className='skills__name_title'>React Js</h3>
                     <span className='skills__level'>Proficient</span>
                 </div>
-                </Zoom>
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <SiVaadin className="bg-react" />
@@ -97,7 +85,6 @@ const Skills = () => {
                     <h3 className='skills__name_title'>Vaadin Hilla</h3>
                     <span className='skills__level'>Proficient</span>
                 </div>
-                </Zoom>
                 {/* <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
@@ -107,16 +94,13 @@ const Skills = () => {
                     <span className='skills__level'>Proficient</span>
                 </div>
                 </Zoom> */}
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <SiMysql className="bg-data" />
                     </div>
                     <h3 className='skills__name_title'>MySql</h3>
-                    <span className='skills__level'>Proficient</span>
+                    <span className='skills__level'>Expert</span>
                 </div>
-                </Zoom>
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <SiJenkins class='bg-aws' />
@@ -124,8 +108,6 @@ const Skills = () => {
                     <h3 className='skills__name_title'>Jenkins</h3>
                     <span className='skills__level'>Proficient</span>
                 </div>
-                </Zoom>
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <SiApachetomcat className="bg-category-alt" />
@@ -133,23 +115,19 @@ const Skills = () => {
                     <h3 className='skills__name_title'>Tomcat</h3>
                     <span className='skills__level'>Proficient</span>
                 </div>
-                </Zoom>
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
                         <SiAmazonec2 className="bg-aws" />
                     </div>
                     <h3 className='skills__name_title'>AWS EC2</h3>
-                    <span className='skills__level'>Proficient</span>
+                    <span className='skills__level'>Intermediate</span>
                 </div>
-                </Zoom>
-                <Zoom direction='fade' cascade  damping={0.1}>
                 <div className="skills-card-main">
                     <div className="skill_icon_top">
-                        <SiGithub className="bg-github" />
+                        <SiDocker className="bg-data" />
                     </div>
-                    <h3 className='skills__name_title'>Github</h3>
-                    <span className='skills__level'>Proficient</span>
+                    <h3 className='skills__name_title'>Docker</h3>
+                    <span className='skills__level'>Intermediate</span>
                 </div>
                 </Zoom>
             </div>

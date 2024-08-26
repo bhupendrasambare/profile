@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../Style/Portfolio.css'
 import { Motion } from '../../Component/Motion'
 import coursemangement from "../../assets/course-management.avif"
@@ -13,6 +13,8 @@ import Microservices from "../../assets/microservices.png"
 
 import portfolioData from './projects.json';
 import { Roll } from 'react-awesome-reveal'
+import { IoCloseSharp } from 'react-icons/io5'
+import BlockchainTodo from '../../Projects/BlockchainTodo'
 
 const images = {
     coursemangement,
@@ -31,25 +33,55 @@ const Portfolio = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
+    const [showModel,setShowModel] = useState(false);
+    const [data,setData] = useState(false);
+
+    function showModelContent(project){
+        console.log(project)
+        setData(project)
+        setShowModel(true)
+    }
+
+    function closeProject(){
+        console.log("close")
+        setShowModel(false)
+    }
+
   return (
     <Motion>
+
+
     <section className="portfolio section" id="portfolio">
         <h2 className="section__title">Portfolio</h2>
         <span className="section__subtitle">My Working</span>
+        {
+            showModel && 
+            <section className='model_box'>
+                <div className="model_header">
+                    <div className="model_header_title">
+                        {/* {data?.name} */}
+                    </div>
+                    <div className="model_header_close"  onClick={closeProject}>
+                        <IoCloseSharp className='model_header_logo_cross'/>
+                    </div>
+                </div>
+                <BlockchainTodo data={data}/>
+            </section>
+        }
 
         <div className="portfolio__container container grid">                    
             {
             portfolioData.map((project, index) => (
                 <Roll triggerOnce direction='fade' cascade  damping={0.1}>
-                    <div className="portfolio__content" key={index}>
+                    <div className="portfolio__content" key={index} onClick={()=>showModelContent(project)}>
                         <a className="portfolio__button">
-                            <a  href={project.link} target="_blank" rel="noopener noreferrer" >
+                            <div rel="noopener noreferrer" >
                                 <img className="w-100 border-radius-20-top" src={images[project.image]} alt={project.name}/>
-                            </a>
+                            </div>
                             <div className="card-inner h-100">
-                                <a  href={project.link} target="_blank" rel="noopener noreferrer" >
+                                <div rel="noopener noreferrer" >
                                     <h3 className="portfolio__title">{project.name}</h3>
-                                </a>
+                                </div>
                                 <div className='portfolio__flex p-3 d-flex'>
                                     {Object.entries(project.tech).map(([techName, iconClass]) => (
                                         <>
