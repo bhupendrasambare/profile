@@ -12,7 +12,7 @@ import Movies from "../../assets/movies.png"
 import Microservices from "../../assets/microservices.png"
 
 import portfolioData from './projects.json';
-import { Roll } from 'react-awesome-reveal'
+import { Zoom } from 'react-awesome-reveal'
 import { IoCloseSharp } from 'react-icons/io5'
 import BlockchainTodo from '../../Projects/BlockchainTodo'
 
@@ -69,10 +69,10 @@ const Portfolio = () => {
             </section>
         }
 
-        <div className="portfolio__container container grid">                    
+        <div className="portfolio__container container grid">   
+            <Zoom triggerOnce direction='fade' cascade  damping={0.1}>                 
             {
             portfolioData.map((project, index) => (
-                <Roll triggerOnce direction='fade' cascade  damping={0.1}>
                     <div className="portfolio__content" key={index} onClick={()=>showModelContent(project)}>
                         <a className="portfolio__button">
                             <div rel="noopener noreferrer" >
@@ -99,8 +99,8 @@ const Portfolio = () => {
                             </div>
                         </a>
                     </div>
-                </Roll>
             ))}
+            </Zoom>
 
         </div>
     </section></Motion>
