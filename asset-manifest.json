@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.445841f4.css",
-    "main.js": "/profile/static/js/main.e45d6f2d.js",
+    "main.css": "/profile/static/css/main.a1bc3bfb.css",
+    "main.js": "/profile/static/js/main.8582b696.js",
     "static/media/profile-1.jpg": "/profile/static/media/profile-1.816d0088d0a05e535c00.jpg",
     "static/media/movies.png": "/profile/static/media/movies.e849217c7c0d2b2cc9f5.png",
     "static/media/weather.png": "/profile/static/media/weather.bbb0351514fbfc82e223.png",
@@ -17,11 +17,11 @@
     "static/media/vivatech_r_d_logo.jpeg": "/profile/static/media/vivatech_r_d_logo.3f95028a2943df64813d.jpeg",
     "static/media/apoliums.jpeg": "/profile/static/media/apoliums.32dc0d01622380e98863.jpeg",
     "index.html": "/profile/index.html",
-    "main.445841f4.css.map": "/profile/static/css/main.445841f4.css.map",
-    "main.e45d6f2d.js.map": "/profile/static/js/main.e45d6f2d.js.map"
+    "main.a1bc3bfb.css.map": "/profile/static/css/main.a1bc3bfb.css.map",
+    "main.8582b696.js.map": "/profile/static/js/main.8582b696.js.map"
   },
   "entrypoints": [
-    "static/css/main.445841f4.css",
-    "static/js/main.e45d6f2d.js"
+    "static/css/main.a1bc3bfb.css",
+    "static/js/main.8582b696.js"
   ]
 }
