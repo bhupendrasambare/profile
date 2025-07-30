@@ -17,7 +17,7 @@ const Info = () => {
   },[])
   return (
     <div className="about__info grid">
-        <Slide direction='up' cascade  damping={0.1}>
+        <Slide direction='up' cascade  damping={0.1} triggerOnce>
             <div className="about__box">
                 <i className="bx bx-award about__icon"></i>
                 <h3 className="about__title">Experiecne</h3>

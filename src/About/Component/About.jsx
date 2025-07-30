@@ -29,16 +29,18 @@ const About = () => {
 
                     <Info/> 
 
-                <Slide direction="up">
                     <p className="about__description">
-                    🔹 I am a Java Spring Boot developer with 2 years of experience, 
-                    specializing in microservices and modular applications.<br/>🔹 With a solid background in
-                    React.js, MySQL, Spring Cloud, Apache Kafka, and Apache Tomcat, 
-                    I deliver seamless full stack solutions.<br/>🔹 Experienced in leading projects and conducting code reviews, 
-                    <br/>🔹 I thrive on continuous learning and innovation.
+                        <p className="tab_space">
+                            I’m a Java Spring Boot developer with over 2 years of experience, primarily focused on building scalable microservices and modular enterprise applications. 
+                        </p>
+                        <p className="tab_space">
+                            My tech stack includes Spring Boot, Spring Cloud, MySQL, Apache Kafka, and Tomcat on the backend, along with React.js on the frontend to create full-stack solutions. I enjoy integrating various tools and frameworks to build end-to-end applications that solve real-world problems efficiently.
+                        </p>
+                        <p className="tab_space">
+                            I've developed and led projects, shaped technical designs, and contributed to code reviews. I'm always learning and looking for better ways to build and scale applications.
+                        </p>
                     </p>
-                </Slide>
-                <Slide direction="up">
+                <Slide direction="up" triggerOnce>
 
                     <a download href={CV} className="button btn-container about-radius">Download CV 
                     <svg

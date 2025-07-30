@@ -94,6 +94,11 @@
         grid-template-columns: repeat(2,1fr);
     }
 }
-  .about-radius{
+.about-radius{
     border-radius: 20px 20px 20px 0 !important;
-  }
+}
+.tab_space{
+    text-indent: 2em;
+    margin-bottom: 1em;
+    line-height: 1.7;
+}

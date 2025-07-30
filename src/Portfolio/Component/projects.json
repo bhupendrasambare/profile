@@ -10,7 +10,8 @@
             "MySql": "bx bxs-data portfolio__icon",
             "Github": "bx bxl-github portfolio__icon"
         },
-        "image":"Microservices"
+        "image":"Microservices",
+        "tags":["Java", "Spring Boot", "MySQL"]
     },
     {
         "name": "Movies Recomendation",
@@ -23,7 +24,8 @@
             "Tailwind": "bx bxl-tailwind-css portfolio__icon",
             "Github": "bx bxl-github portfolio__icon "
         },
-        "image":"Movies"
+        "image":"Movies",
+        "tags":["React Native" , "JavaScript"]
     },{
         "name": "Weather forcast App",
         "link": "https://github.com/bhupendrasambare/Weather-App",
@@ -35,7 +37,8 @@
             "Tailwind": "bx bxl-tailwind-css portfolio__icon",
             "Github": "bx bxl-github portfolio__icon "
         },
-        "image":"Weather"
+        "image":"Weather",
+        "tags":["React Native" , "JavaScript"]
     },{
         "name": "Blockchain Donation",
         "git": "https://bhupendrasambare.github.io/Blockchain-Donation/",
@@ -49,7 +52,8 @@
             "React": "bx bxl-react portfolio__icon",
             "Github": "bx bxl-github portfolio__icon "
         },
-        "image":"Donation"
+        "image":"Donation",
+        "tags":["Blockchain", "Hardhat", "React Js"]
     },
     {
         "name": "Blockchain TODO",
@@ -64,7 +68,8 @@
             "React": "bx bxl-react portfolio__icon",
             "Github": "bx bxl-github portfolio__icon"
         },
-        "image":"Todo"
+        "image":"Todo",
+        "tags":["Blockchain", "Hardhat", "React Js"]
     },
     {
         "name": "Course Management",
@@ -78,7 +83,8 @@
             "MySql": "bx bxs-data portfolio__icon",
             "Github": "bx bxl-github portfolio__icon"
         },
-        "image":"coursemangement"
+        "image":"coursemangement",
+        "tags":["Java", "Spring Boot", "MySQL", "React Js"]
     },
     {
         "name": "Simple Blog",
@@ -91,7 +97,8 @@
             "MySql": "bx bx-data portfolio__icon",
             "Github": "bx bxl-github portfolio__icon"
         },
-        "image":"blogImage"
+        "image":"blogImage",
+        "tags":["Java", "Spring Boot", "MySQL"]
     },
     {
         "name": "Crypto Tracker",
@@ -104,7 +111,8 @@
             "React": "bx bxl-react portfolio__icon",
             "Github": "bx bxl-github portfolio__icon"
         },
-        "image":"cryptoTracker"
+        "image":"cryptoTracker",
+        "tags":["React Js"]
     },
     {
         "name": "Spring Boot REST API",
@@ -117,6 +125,7 @@
             "MySql": "bx bxs-data portfolio__icon",
             "Github": "bx bxl-github portfolio__icon"
         },
-        "image":"RestApi"
+        "image":"RestApi",
+        "tags":["Java", "Spring Boot", "MySQL"]
     }
 ]

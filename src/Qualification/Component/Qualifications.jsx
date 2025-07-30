@@ -3,6 +3,7 @@ import "../Style/Qualifications.css"
 import { Motion } from '../../Component/Motion';
 import { Slide } from 'react-awesome-reveal';
 import Vivatech from "../../assets/company/vivatech_r_d_logo.jpeg"
+import KAI from "../../assets/company/KAI-company-logo-crop.jpeg"
 import CSKA from "../../assets/company/cska automation.jpeg"
 import Apoliums from "../../assets/company/apoliums.jpeg"
 
@@ -52,17 +53,17 @@ const Qualifications = () => {
                             <div className='justify-content-center'>
                                 <Slide direction='up'>
                                     <div className='qualification-images-limit'>
-                                        <img className=" ml-auto qualification-images" src={Vivatech}/>
+                                        <img className=" ml-auto qualification-images" src={KAI}/>
                                     </div>
                                     <div className=''>
                                         <h3 className="qualification__title">
-                                            Viva Tech R&D
+                                            Kathreftis AI - Cymmetri
                                         </h3>
                                         <span className="qualification__subtitle">
                                             Java Software Developer
                                         </span>
                                         <div className="qualification__calender">
-                                            <i className="uil uil-calendar-alt"></i> February 2023 - present
+                                            <i className="uil uil-calendar-alt"></i> April 2025 - <span className='text-success'>Present</span>
                                         </div>
                                     </div>
                                 </Slide>
@@ -91,18 +92,18 @@ const Qualifications = () => {
                             <div className='justify-content-center'>
                                 <Slide direction='up'>
                                     <div className='w-100'>
-                                        <img className=" ml-auto qualification-images" src={CSKA}/>
+                                        <img className=" ml-auto qualification-images" src={Vivatech}/>
                                     </div>
                                     <div>
 
                                         <h3 className="qualification__title">
-                                            CSKA Automation
+                                            Viva Tech R&D
                                         </h3>
                                         <span className="qualification__subtitle">
-                                            Java Developer Intern
+                                            Java Software Developer
                                         </span>
                                         <div className="qualification__calender">
-                                            <i className="uil uil-calendar-alt"></i> April 2022 - January 2023
+                                            <i className="uil uil-calendar-alt"></i> February 2023 - April 2025
                                         </div>
                                     </div>
                                 </Slide>
@@ -115,9 +116,49 @@ const Qualifications = () => {
                             <div className='justify-content-center'>
                                 <Slide direction='up'>
                                     <div className='qualification-images-limit'>
-                                        <img className=" ml-auto qualification-images" src={Apoliums}/>
+                                        <img className=" ml-auto qualification-images" src={CSKA}/>
                                     </div>
                                     <div className=''>
+                                        <h3 className="qualification__title">
+                                            CSKA Automation
+                                        </h3>
+                                        <span className="qualification__subtitle">
+                                            Java Developer Intern
+                                        </span>
+                                        <div className="qualification__calender">
+                                            <i className="uil uil-calendar-alt"></i> April 2022 - January 2023
+                                        </div>
+                                    </div>
+                                </Slide>
+                            </div>
+
+                        </div>
+                        <div>
+                            <span className="qualification__rounder">
+
+                            </span>
+                            <span className="qualification__line"></span>
+                        </div>
+                    </div>
+                    
+                    <div className="qualification__data">
+                        <div></div>
+
+                        <div>
+                            <span className="qualification__rounder">
+
+                            </span>
+                            <span className="qualification__line"></span>
+                        </div>
+
+                        <div>
+                            <div className='justify-content-center'>
+                                <Slide direction='up'>
+                                    <div className='w-100'>
+                                        <img className=" ml-auto qualification-images" src={Apoliums}/>
+                                    </div>
+                                    <div>
+
                                         <h3 className="qualification__title">
                                             Apoliums Infotech
                                         </h3>
@@ -130,13 +171,6 @@ const Qualifications = () => {
                                     </div>
                                 </Slide>
                             </div>
-
-                        </div>
-                        <div>
-                            <span className="qualification__rounder">
-
-                            </span>
-                            <span className="qualification__line"></span>
                         </div>
                     </div>
                     

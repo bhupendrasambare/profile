@@ -17,94 +17,132 @@ import { IoCloseSharp } from 'react-icons/io5'
 import BlockchainTodo from '../../Projects/BlockchainTodo'
 
 const images = {
-    coursemangement,
-    blogImage,
-    RestApi,
-    blogImage,
-    Todo,
-    Donation,
-    cryptoTracker,
-    Weather,
-    Movies,
-    Microservices
-  };
+  coursemangement,
+  blogImage,
+  RestApi,
+  Todo,
+  Donation,
+  cryptoTracker,
+  Weather,
+  Movies,
+  Microservices
+};
 
 const Portfolio = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
-    const [showModel,setShowModel] = useState(false);
-    const [data,setData] = useState(false);
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
 
-    function showModelContent(project){
-        console.log(project)
-        setData(project)
-        setShowModel(true)
-    }
+  const [showModel, setShowModel] = useState(false);
+  const [data, setData] = useState(false);
+  const [filterList, setFilterList] = useState([]);
+  const [selectedTag, setSelectedTag] = useState("All");
+  const [allProjects, setAllProjects] = useState([]);
+  const [filteredProjects, setFilteredProjects] = useState([]);
 
-    function closeProject(){
-        console.log("close")
-        setShowModel(false)
-    }
+  useEffect(() => {
+    const tags = [...new Set(portfolioData.flatMap(item => item.tags))];
+    setFilterList(["All", ...tags]);
+  }, []);
+
+  function showModelContent(project) {
+    setData(project);
+    setShowModel(true);
+  }
+
+  function closeProject() {
+    setShowModel(false);
+  }
+
+  useEffect(() => {
+    // Load initial project list from JSON
+    setAllProjects(portfolioData);
+    setFilteredProjects(portfolioData);
+
+    // Extract all unique tags and prepend "All"
+    const tags = [...new Set(portfolioData.flatMap(item => item.tags))];
+    setFilterList(["All", ...tags]);
+  }, []);
+
+  useEffect(() => {
+    // First clear the current projects to simulate a delay effect
+    setFilteredProjects([]);
+
+    const timeout = setTimeout(() => {
+      if (selectedTag === "All") {
+        setFilteredProjects(allProjects);
+      } else {
+        const filtered = allProjects.filter(project =>
+          project.tags.includes(selectedTag)
+        );
+        setFilteredProjects(filtered);
+      }
+    }, 50); // 0.5 second delay
+
+    // Clean up the timeout if the component unmounts or tag changes quickly
+    return () => clearTimeout(timeout);
+  }, [selectedTag, allProjects]);
+
 
   return (
     <Motion>
-
-
-    <section className="portfolio section" id="portfolio">
+      <section className="portfolio section" id="portfolio">
         <h2 className="section__title">Portfolio</h2>
         <span className="section__subtitle">My Working</span>
-        {
-            showModel && 
-            <section className='model_box'>
-                <div className="model_header">
-                    <div className="model_header_title">
-                        {/* {data?.name} */}
-                    </div>
-                    <div className="model_header_close"  onClick={closeProject}>
-                        <IoCloseSharp className='model_header_logo_cross'/>
-                    </div>
-                </div>
-                <BlockchainTodo data={data}/>
-            </section>
-        }
 
-        <div className="portfolio__container container grid">   
-            <Zoom triggerOnce direction='fade' cascade  damping={0.1}>                 
-            {
-            portfolioData.map((project, index) => (
-                    <div className="portfolio__content" key={index} onClick={()=>showModelContent(project)}>
-                        <a className="portfolio__button">
-                            <div rel="noopener noreferrer" >
-                                <img className="w-100 border-radius-20-top" src={images[project.image]} alt={project.name}/>
-                            </div>
-                            <div className="card-inner h-100">
-                                <div rel="noopener noreferrer" >
-                                    <h3 className="portfolio__title">{project.name}</h3>
-                                </div>
-                                <div className='portfolio__flex p-3 d-flex'>
-                                    {Object.entries(project.tech).map(([techName, iconClass]) => (
-                                        <>
-                                            <div className="tech-name">
-                                                <div>
-                                                    <i className={iconClass+" title-icon"} title={techName} key={techName}></i>
-                                                </div>
-                                                <div>
-                                                    {techName}
-                                                </div>
-                                            </div>
-                                        </>
-                                        ))}
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+        <div className="portfolio_filter__container">
+          <div className='portfolio_filter_flex'>
+            {filterList.map((tag, idx) => (
+              <div
+                key={tag}
+                className={`filter-button-tag ${selectedTag === tag ? "active-tag" : ""}`}
+                onClick={() => setSelectedTag(tag)}
+              >
+                {tag}
+              </div>
             ))}
-            </Zoom>
-
+          </div>
         </div>
-    </section></Motion>
-  )
-}
 
-export default Portfolio
+        {showModel && (
+          <section className='model_box'>
+            <div className="model_header">
+              <div className="model_header_title">{data?.name}</div>
+              <div className="model_header_close" onClick={closeProject}>
+                <IoCloseSharp className='model_header_logo_cross' />
+              </div>
+            </div>
+            <BlockchainTodo data={data} />
+          </section>
+        )}
+
+        <div className="portfolio__container container grid">
+          <Zoom triggerOnce direction='fade' cascade damping={0.1}>
+            {filteredProjects.map((project, index) => (
+              <div className="portfolio__content" key={index} onClick={() => showModelContent(project)}>
+                <a className="portfolio__button">
+                  <div>
+                    <img className="w-100 border-radius-20-top" src={images[project.image]} alt={project.name} />
+                  </div>
+                  <div className="card-inner h-100">
+                    <h3 className="portfolio__title">{project.name}</h3>
+                    <div className='portfolio__flex p-3 d-flex'>
+                      {Object.entries(project.tech).map(([techName, iconClass]) => (
+                        <div className="tech-name" key={techName}>
+                          <div><i className={`${iconClass} title-icon`} title={techName}></i></div>
+                          <div>{techName}</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </Zoom>
+        </div>
+      </section>
+    </Motion>
+  );
+};
+
+export default Portfolio;
